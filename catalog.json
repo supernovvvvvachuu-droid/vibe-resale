@@ -1,1 +1,2419 @@
-{"categories":[{"name":"Goth","slug":"goth","description":"Тёмная романтика, выразительные силуэты, кожа и металлические детали.","id":"goth","kind":"category"},{"name":"Grunge","slug":"grunge","description":"Свободные слои, клетка, грубые фактуры и настроение гитарных концертов.","id":"grunge","kind":"category"},{"name":"Coquette","slug":"coquette","description":"Цветы, вышивка, лёгкие ткани и романтичные маленькие детали.","id":"coquette","kind":"category"},{"name":"Dark Academia","slug":"dark-academia","description":"Книги, шерсть, клетка и сдержанная палитра старого университета.","id":"dark-academia","kind":"category"},{"name":"Y2K","slug":"y2k","description":"Деним, компактные сумки и энергия моды нулевых.","id":"y2k","kind":"category"},{"name":"Vintage","slug":"vintage","description":"Любимые вещи прошлых десятилетий и находки с собственной историей.","id":"vintage","kind":"category"},{"name":"Punk","slug":"punk","description":"Независимость, контрастные сочетания, металл и смелые акценты.","id":"punk","kind":"category"},{"name":"Fairycore","slug":"fairycore","description":"Природные мотивы, цветочные узоры и немного тихого волшебства.","id":"fairycore","kind":"category"},{"name":"Гяру · Gyaru","slug":"gyaru","description":"Выразительные аксессуары, игра фактур и личная версия японской уличной эстетики. У gyaru много разных направлений.","id":"gyaru","kind":"category"},{"name":"Эмо · Emo","slug":"emo","description":"Эмоциональная музыка, тёмные акценты, клетка и вещи, через которые хочется выражать себя.","id":"emo","kind":"category"},{"name":"Сцен · Scene","slug":"scene","description":"Контрасты, яркие детали, многослойность и интернет-энергия нулевых.","id":"scene","kind":"category"},{"name":"Стритвир · Streetwear","slug":"streetwear","description":"Уличная одежда, свободные силуэты, удобство и сочетание повседневных вещей с выразительными деталями.","id":"streetwear","kind":"category"},{"name":"Baggy / Sagging","slug":"sagging","description":"Широкие брюки и расслабленная низкая посадка. Sagging — способ стилизации, который может пересекаться со streetwear.","id":"sagging","kind":"category"},{"name":"Коттеджкор · Cottagecore","slug":"cottagecore","description":"Сельская романтика, цветочные мотивы, мягкие силуэты и ощущение неспешного дня.","id":"cottagecore","kind":"category"},{"name":"Горпкор · Gorpcore","slug":"gorpcore","description":"Элементы походной одежды в городе: функциональность, слои и практичные детали.","id":"gorpcore","kind":"category"},{"name":"Акуби · Acubi","slug":"acubi","description":"Сдержанная палитра, необычные пропорции и многослойные повседневные сочетания.","id":"acubi","kind":"category"},{"name":"Блоккор · Blokecore","slug":"blokecore","description":"Футбольные силуэты, спортивный трикотаж и повседневные сочетания с винтажным настроением.","id":"blokecore","kind":"category"},{"name":"Балеткор · Balletcore","slug":"balletcore","description":"Ленты, мягкие слои и пластичные силуэты, вдохновлённые тренировочной одеждой балета.","id":"balletcore","kind":"category"},{"name":"K-fashion","slug":"k-fashion","description":"Корейская уличная мода: от спокойной многослойности до выразительных силуэтов. Единого обязательного образа здесь нет.","id":"k-fashion","kind":"category"},{"name":"McBling","slug":"mcbling","description":"Блеск, заметные украшения, маленькие сумки и настроение поп-культуры нулевых.","id":"mcbling","kind":"category"}],"items":[{"title":"Кожаная куртка с характером","description":"Чёрная куртка с косой молнией и выразительным воротником. Хорошо сочетается с мягким трикотажем и светлыми тканями.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.","price":1500,"size":"M","condition":"Очень хорошее","categoryIds":["goth","grunge","punk","streetwear","emo","acubi"],"image":"/assets/goth.jpg","externalUrl":null,"marketplace":"Демо-вещь","id":"leather-jacket","kind":"item"},{"title":"Белый топ с вышивкой","description":"Лёгкий белый топ с декоративной вышивкой. Добавь кардиган или носи поверх лаконичной майки для многослойного образа.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.","price":350,"size":"S","condition":"Хорошее","categoryIds":["coquette","vintage","fairycore","balletcore","cottagecore","k-fashion"],"image":"/assets/lace.jpg","externalUrl":null,"marketplace":"Демо-вещь","id":"lace-top","kind":"item"},{"title":"Юбка в крупную клетку","description":"Длинная клетчатая юбка в спокойной палитре. Сочетается с плотными колготками, ботинками и объёмным верхом.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.","price":650,"size":"M","condition":"Очень хорошее","categoryIds":["grunge","dark-academia","vintage","emo","scene"],"image":"/assets/plaid.jpg","externalUrl":null,"marketplace":"Демо-вещь","id":"plaid-skirt","kind":"item"},{"title":"Чёрные винтажные ботильоны","description":"Чёрные ботильоны с острым носком и небольшим каблуком. Добавляют выразительности простому образу с денимом.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.","price":1200,"size":"38","condition":"Хорошее","categoryIds":["goth","vintage","emo","gyaru"],"image":"/assets/boots.jpg","externalUrl":null,"marketplace":"Демо-вещь","id":"platform-boots","kind":"item"},{"title":"Платье с цветочной историей","description":"Светлое платье с цветочным узором и завязками. Носи с грубой обувью для контраста или с лёгкой сумкой для романтичного настроения.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.","price":800,"size":"S–M","condition":"Очень хорошее","categoryIds":["coquette","fairycore","vintage","cottagecore","balletcore"],"image":"/assets/coquette.jpg","externalUrl":null,"marketplace":"Демо-вещь","id":"velvet-dress","kind":"item"},{"title":"Джинсовая сумка из нулевых","description":"Мягкая сумка из синего денима с небольшими карманами. Компактный спутник для телефона, ключей и любимых мелочей.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.","price":500,"size":"One size","condition":"Хорошее","categoryIds":["y2k","grunge","vintage","streetwear","gyaru","scene"],"image":"/assets/bag.jpg","externalUrl":null,"marketplace":"Демо-вещь","id":"denim-bag","kind":"item"},{"title":"Тёплый кардиган цвета кофе","description":"Свободный удлинённый кардиган в тёплом коричневом оттенке. Для прохладных прогулок, уютных вечеров и любимых книг.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.","price":750,"size":"M–L","condition":"Очень хорошее","categoryIds":["dark-academia","vintage","cottagecore","acubi","k-fashion"],"image":"/assets/academia.jpg","externalUrl":null,"marketplace":"Демо-вещь","id":"knit-cardigan","kind":"item"},{"title":"Тонкая винтажная цепочка","description":"Деликатная цепочка тёплого металлического оттенка. Носи самостоятельно или сочетай с другими украшениями разной длины.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.","price":200,"size":"One size","condition":"Хорошее","categoryIds":["coquette","vintage","y2k","gyaru","mcbling","sagging"],"image":"/assets/necklace.jpg","externalUrl":null,"marketplace":"Демо-вещь","id":"silver-necklace","kind":"item"}],"quizzes":[{"title":"Какой у тебя вайб?","description":"Немного интуиции, любимых деталей и никаких правил. Найди эстетику, в которой ты чувствуешь себя собой.","image":"/assets/goth.jpg","topic":"style","author":"Редакция VIBE","categoryIds":["goth","grunge","coquette","dark-academia"],"results":[{"id":"goth","title":"Твой вайб — Goth","description":"Ты находишь красоту в тенях. Чёрные силуэты, серебристые детали и немного театральности помогают рассказать твою историю. Начни с кожаной куртки и одного выразительного украшения.","categoryIds":["goth"]},{"id":"grunge","title":"Твой вайб — Grunge","description":"В твоём гардеробе живёт свобода. Клетка, свободные слои и вещи с характером подходят тебе больше безупречно выверенного образа. Носи любимое так, как удобно именно тебе.","categoryIds":["grunge"]},{"id":"coquette","title":"Твой вайб — Coquette","description":"Тебя вдохновляют нежные детали: вышивка, цветы, полупрозрачные ткани и маленькие украшения. Твоя романтика может быть смелой — попробуй соединить лёгкое платье с тёмной обувью.","categoryIds":["coquette"]},{"id":"dark-academia","title":"Твой вайб — Dark Academia","description":"Твоя эстетика — старые книги, кофе у окна и вещи, которые переживут не один сезон. Собери образ из клетки, уютного трикотажа и глубоких природных оттенков.","categoryIds":["dark-academia"]}],"questions":[{"id":"mood","text":"Какое место сейчас ближе твоему настроению?","answers":[{"text":"Старый особняк в сумерках","resultId":"goth"},{"text":"Камерный концерт в подвале","resultId":"grunge"},{"text":"Цветочный магазин на тихой улице","resultId":"coquette"},{"text":"Библиотека с высокими окнами","resultId":"dark-academia"}]},{"id":"texture","text":"Выбери фактуру, к которой хочется прикоснуться.","answers":[{"text":"Гладкая чёрная кожа","resultId":"goth"},{"text":"Мягкая потёртая клетка","resultId":"grunge"},{"text":"Лёгкая вышитая ткань","resultId":"coquette"},{"text":"Плотный тёплый трикотаж","resultId":"dark-academia"}]},{"id":"accessory","text":"Какая деталь соберёт твой образ?","answers":[{"text":"Выразительное металлическое украшение","resultId":"goth"},{"text":"Винтажная футболка любимой группы","resultId":"grunge"},{"text":"Тонкая цепочка и маленький цветок","resultId":"coquette"},{"text":"Кожаный ремень и старые часы","resultId":"dark-academia"}]},{"id":"evening","text":"У тебя свободный вечер. Как его проведёшь?","answers":[{"text":"Пересмотрю любимый мистический фильм","resultId":"goth"},{"text":"Включу громкую музыку и встречусь с друзьями","resultId":"grunge"},{"text":"Устрою домашний вечер с красивой посудой","resultId":"coquette"},{"text":"Почитаю под шум дождя","resultId":"dark-academia"}]},{"id":"wardrobe","text":"Как ты выбираешь новую для себя вещь?","answers":[{"text":"Ищу выразительный тёмный силуэт","resultId":"goth"},{"text":"Примеряю и сразу понимаю: моя","resultId":"grunge"},{"text":"Влюбляюсь в узор и маленькие детали","resultId":"coquette"},{"text":"Думаю, с чем буду носить её годами","resultId":"dark-academia"}]},{"id":"phrase","text":"Какая фраза откликается тебе сегодня?","answers":[{"text":"В темноте тоже есть красота","resultId":"goth"},{"text":"Я могу быть собой без объяснений","resultId":"grunge"},{"text":"Нежность — моя суперсила","resultId":"coquette"},{"text":"У каждой вещи есть история","resultId":"dark-academia"}]}],"id":"find-your-vibe","kind":"quiz"},{"title":"Кто ты в ночном городе?","description":"Фонари, любимый маршрут и музыка в наушниках. Собери образ для своего идеального вечера.","image":"/assets/hero.jpg","topic":"style","author":"Редакция VIBE","categoryIds":["goth","y2k","grunge"],"results":[{"id":"goth","title":"Ночной романтик","description":"Твой город оживает после заката. Тебе близки тёмные ткани, острые линии и украшения, которые ловят свет фонарей. Выбирай выразительную вещь и строй образ вокруг неё.","categoryIds":["goth"]},{"id":"y2k","title":"Неоновая звезда","description":"Ты замечаешь блеск даже в повседневном. Деним, маленькая сумка и заметный аксессуар превращают прогулку в собственный клип. Смешивай нулевые с современным удобством.","categoryIds":["y2k"]},{"id":"grunge","title":"Герой андеграунда","description":"Твой маршрут ведёт на небольшой концерт и в места с историей. Свободный верх, клетка и удобная обувь поддержат твой темп. Пусть одежда живёт вместе с тобой.","categoryIds":["grunge"]}],"questions":[{"id":"route","text":"Куда свернёшь после заката?","answers":[{"text":"К готическому зданию на тихой площади","resultId":"goth"},{"text":"На улицу с яркими витринами","resultId":"y2k"},{"text":"На небольшой концерт","resultId":"grunge"}]},{"id":"light","text":"Какой свет выберешь для фотографии?","answers":[{"text":"Одинокий фонарь и глубокие тени","resultId":"goth"},{"text":"Неоновые вывески","resultId":"y2k"},{"text":"Зернистая вспышка у кирпичной стены","resultId":"grunge"}]},{"id":"bag","text":"Что точно будет с тобой?","answers":[{"text":"Тёмная куртка на прохладный вечер","resultId":"goth"},{"text":"Маленькая сумка и любимый блеск","resultId":"y2k"},{"text":"Свободный слой, который можно накинуть","resultId":"grunge"}]},{"id":"memory","text":"Какое воспоминание хочется унести?","answers":[{"text":"Тайный двор и красивую тишину","resultId":"goth"},{"text":"Смех, фотографии и спонтанный танец","resultId":"y2k"},{"text":"Последнюю песню концерта","resultId":"grunge"}]}],"id":"night-city","kind":"quiz"},{"title":"Твоя нежная сторона","description":"Уют, цветы или тихая поэзия? Найди мягкую эстетику, которая отзывается именно тебе.","image":"/assets/coquette.jpg","topic":"style","author":"Редакция VIBE","categoryIds":["coquette","fairycore","dark-academia"],"results":[{"id":"coquette","title":"Романтика в деталях","description":"Твоя мягкая сторона проявляется в маленьких ритуалах. Цветочный узор, вышивка и лёгкая цепочка помогут сохранить это настроение на весь день.","categoryIds":["coquette"]},{"id":"fairycore","title":"Лесная мечтательница","description":"Тебе близки природные фактуры и ощущение тихого волшебства. Цветочные принты и свободные ткани легко подружатся с уже любимыми вещами.","categoryIds":["fairycore"]},{"id":"dark-academia","title":"Тихая поэзия","description":"Твоя нежность спокойная и глубокая. Уютный кардиган, клетчатая юбка и любимая книга — достаточно, чтобы почувствовать себя на своём месте.","categoryIds":["dark-academia"]}],"questions":[{"id":"morning","text":"Как выглядит твоё идеальное утро?","answers":[{"text":"Цветы на столе и красивая чашка","resultId":"coquette"},{"text":"Прогулка по траве, пока город спит","resultId":"fairycore"},{"text":"Книга, кофе и мягкий кардиган","resultId":"dark-academia"}]},{"id":"detail","text":"Какую деталь заметишь первой?","answers":[{"text":"Аккуратную вышивку на воротнике","resultId":"coquette"},{"text":"Цветочный узор, похожий на живой","resultId":"fairycore"},{"text":"Красивую фактуру старого трикотажа","resultId":"dark-academia"}]},{"id":"color","text":"Выбери свою палитру.","answers":[{"text":"Молочный, пудровый и тёплое золото","resultId":"coquette"},{"text":"Зелёный, кремовый и приглушённый розовый","resultId":"fairycore"},{"text":"Шоколадный, серый и цвет старой бумаги","resultId":"dark-academia"}]},{"id":"treasure","text":"Что возьмёшь на память из поездки?","answers":[{"text":"Небольшое винтажное украшение","resultId":"coquette"},{"text":"Засушенный цветок в блокноте","resultId":"fairycore"},{"text":"Книгу из маленького букинистического","resultId":"dark-academia"}]}],"id":"soft-side","kind":"quiz"},{"title":"Одень свой плейлист","description":"Любимые треки уже знают твой стиль. Осталось перевести настроение музыки в вещи.","image":"/assets/grunge.jpg","topic":"music","author":"Редакция VIBE","categoryIds":["grunge","goth","y2k"],"results":[{"id":"grunge","title":"Гитарный шум","description":"Ты выбираешь музыку, в которой слышно живое дыхание. Клетка, потёртые фактуры и свободные силуэты поддержат твою независимость.","categoryIds":["grunge"]},{"id":"goth","title":"Тёмная волна","description":"Ты любишь глубокий бас и мелодии с тайной. В твоём образе органично смотрятся чёрная кожа, металл и выразительные линии.","categoryIds":["goth"]},{"id":"y2k","title":"Поп на повторе","description":"Для тебя музыка — источник энергии. Деним, компактная сумка и яркие сочетания помогут взять это настроение с собой.","categoryIds":["y2k"]}],"questions":[{"id":"track","text":"Что сейчас звучит в наушниках?","answers":[{"text":"Неровные живые гитары","resultId":"grunge"},{"text":"Глубокий бас и тёмная мелодия","resultId":"goth"},{"text":"Поп-трек, которому хочется подпевать","resultId":"y2k"}]},{"id":"concert","text":"Выбери концерт мечты.","answers":[{"text":"Маленький клуб, где артист совсем рядом","resultId":"grunge"},{"text":"Тёмный зал и красивый свет","resultId":"goth"},{"text":"Большая сцена с танцами","resultId":"y2k"}]},{"id":"cover","text":"Какой будет обложка твоего альбома?","answers":[{"text":"Чёрно-белая плёнка и движение","resultId":"grunge"},{"text":"Тени, кожа и глубокий фиолетовый","resultId":"goth"},{"text":"Блеск, деним и неожиданный ракурс","resultId":"y2k"}]},{"id":"dance","text":"Как ты двигаешься под любимый трек?","answers":[{"text":"Как хочется, без правил","resultId":"grunge"},{"text":"Медленно, полностью в настроении","resultId":"goth"},{"text":"Не могу оставаться на месте","resultId":"y2k"}]}],"id":"soundtrack","kind":"quiz"},{"title":"Твой K-pop stage-вайб","description":"Выбери настроение выступления, а не «правильную» группу. Тест для вдохновения: он не связан с артистами и не использует их музыку.","image":"/assets/y2k.jpg","topic":"kpop","author":"Редакция VIBE","categoryIds":["streetwear","k-fashion","gyaru","mcbling","coquette","y2k"],"results":[{"id":"stage-power","title":"Сильный выход","description":"Тебе близки чёткий ритм и выразительные движения. Свободный верх, удобные слои и заметная деталь поддержат этот настрой. Не нужно повторять сценический костюм целиком: возьми одну идею и сделай её своей.","categoryIds":["streetwear","k-fashion"]},{"id":"stage-sparkle","title":"Звезда с блеском","description":"Ты любишь, когда образ заметен ещё до первого припева. Маленькая сумка, украшения и игра фактур создают настроение gyaru и McBling. Пусть главным акцентом станет одна вещь, которую хочется носить снова.","categoryIds":["gyaru","mcbling"]},{"id":"stage-soft","title":"Мягкая харизма","description":"Тебя цепляют мелодия, детали и спокойная уверенность. Светлая рубашка, вышивка или мягкий слой добавят образу нежности без строгих правил. Носи романтичные вещи так, как удобно тебе.","categoryIds":["coquette","k-fashion"]},{"id":"stage-retro","title":"Ретро-припев","description":"Твоё настроение — запоминающийся поп, деним и немного нулевых. Попробуй компактную сумку и простую базу с интересным силуэтом. Сценическая энергия может жить и в повседневном образе.","categoryIds":["y2k","k-fashion"]}],"questions":[{"id":"intro","text":"Что хочется почувствовать с первых секунд выступления?","answers":[{"text":"Чёткий ритм и мощное движение","resultId":"stage-power"},{"text":"Блеск, эффектный образ и улыбку","resultId":"stage-sparkle"},{"text":"Красивую мелодию и мягкую атмосферу","resultId":"stage-soft"},{"text":"Знакомый ретро-грув и лёгкость","resultId":"stage-retro"}]},{"id":"detail","text":"Какую деталь ты возьмёшь из сценического образа в обычный день?","answers":[{"text":"Свободный верх и интересный слой","resultId":"stage-power"},{"text":"Маленькую сумку и заметное украшение","resultId":"stage-sparkle"},{"text":"Рубашку с аккуратной вышивкой","resultId":"stage-soft"},{"text":"Деним и один акцент из нулевых","resultId":"stage-retro"}]},{"id":"rehearsal","text":"Как выглядит твой идеальный день с любимым K-pop?","answers":[{"text":"Танцевальная тренировка в удобной одежде","resultId":"stage-power"},{"text":"Собрать образ и снять короткое видео","resultId":"stage-sparkle"},{"text":"Прогулка под мелодичный плейлист","resultId":"stage-soft"},{"text":"Включить любимые поп-треки и встретиться с друзьями","resultId":"stage-retro"}]},{"id":"palette","text":"Какая палитра подходит твоему воображаемому камбэку?","answers":[{"text":"Чёрный, серый и один насыщенный акцент","resultId":"stage-power"},{"text":"Тёплый металл, контраст и блеск","resultId":"stage-sparkle"},{"text":"Молочный, пудровый и мягкие оттенки","resultId":"stage-soft"},{"text":"Синий деним и неожиданный яркий цвет","resultId":"stage-retro"}]},{"id":"encore","text":"Что останется с тобой после последнего припева?","answers":[{"text":"Энергия и желание двигаться","resultId":"stage-power"},{"text":"Смелость попробовать заметный образ","resultId":"stage-sparkle"},{"text":"Хорошее настроение от красивой мелодии","resultId":"stage-soft"},{"text":"Желание снова поставить трек на повтор","resultId":"stage-retro"}]}],"id":"kpop-stage","kind":"quiz"},{"title":"Твой музыкальный альтер-эго","description":"Гитары, синтезаторы, тёмный бас или свободный флоу? Собери настроение своего плейлиста и найди вещи, которые его поддержат.","image":"/assets/grunge.jpg","topic":"music","author":"Редакция VIBE","categoryIds":["emo","scene","goth","streetwear"],"results":[{"id":"emo-heart","title":"Громкие чувства","description":"Тебе нужна музыка, в которой можно узнать собственные переживания. Клетка, тёмные акценты и любимая удобная вещь передадут настроение эмо. Чувства не обязывают тебя к определённому внешнему виду.","categoryIds":["emo"]},{"id":"scene-spark","title":"Яркий импульс","description":"Ты выбираешь энергию, контраст и неожиданные сочетания. Возьми настроение scene через аксессуары и многослойность — даже маленькая яркая деталь может изменить весь образ.","categoryIds":["scene"]},{"id":"dark-wave","title":"Тёмная волна","description":"Тебе близки глубокий бас, пространство и немного загадочности. Тёмный силуэт, фактура и металлическая деталь помогут передать эту атмосферу без буквального копирования чужого стиля.","categoryIds":["goth"]},{"id":"street-flow","title":"Свободный флоу","description":"Ты ценишь ритм, движение и образ, который живёт вместе с тобой. Свободные слои и практичная сумка поддержат streetwear-настроение. Комфорт — полноценная часть твоего стиля.","categoryIds":["streetwear"]}],"questions":[{"id":"sound","text":"Какое звучание сейчас хочется включить громче?","answers":[{"text":"Эмоциональные гитары и выразительный вокал","resultId":"emo-heart"},{"text":"Энергичный электронный поп и резкие переходы","resultId":"scene-spark"},{"text":"Глубокий бас и атмосферные мелодии","resultId":"dark-wave"},{"text":"Ритмичный хип-хоп и свободный флоу","resultId":"street-flow"}]},{"id":"venue","text":"Какое место подходит этой музыке?","answers":[{"text":"Небольшой зал, где можно подпевать всем вместе","resultId":"emo-heart"},{"text":"Яркий танцпол с друзьями","resultId":"scene-spark"},{"text":"Камерный клуб с красивыми тенями","resultId":"dark-wave"},{"text":"Открытая площадка, где достаточно пространства","resultId":"street-flow"}]},{"id":"cover","text":"Какой будет обложка твоего личного плейлиста?","answers":[{"text":"Клетка, плёнка и рукописная подпись","resultId":"emo-heart"},{"text":"Контрастные цвета и несколько смелых деталей","resultId":"scene-spark"},{"text":"Тёмный силуэт и один луч света","resultId":"dark-wave"},{"text":"Город, движение и простой выразительный кадр","resultId":"street-flow"}]},{"id":"clothes","text":"В чём ты пойдёшь слушать этот плейлист?","answers":[{"text":"Любимая клетка и тёмная обувь","resultId":"emo-heart"},{"text":"Многослойный образ с заметным аксессуаром","resultId":"scene-spark"},{"text":"Фактурная тёмная вещь и украшение","resultId":"dark-wave"},{"text":"Свободная база и удобная сумка","resultId":"street-flow"}]},{"id":"feeling","text":"За чем ты чаще всего возвращаешься к музыке?","answers":[{"text":"Чтобы прожить чувства и узнать в словах себя","resultId":"emo-heart"},{"text":"Чтобы поймать импульс и зарядиться","resultId":"scene-spark"},{"text":"Чтобы побыть в собственной атмосфере","resultId":"dark-wave"},{"text":"Чтобы почувствовать ритм и двигаться дальше","resultId":"street-flow"}]}],"id":"music-alter-ego","kind":"quiz"},{"title":"Гяру, эмо, сцен или streetwear?","description":"Пять направлений, которые можно смешивать без разрешения. Выбери детали по настроению и найди отправную точку для нового образа.","image":"/assets/jacket.jpg","topic":"style","author":"Редакция VIBE","categoryIds":["gyaru","emo","scene","streetwear","sagging"],"results":[{"id":"gyaru","title":"Твой акцент — Gyaru","description":"Тебя вдохновляют выразительность, аксессуары и собственный взгляд на красоту. Начни с заметного украшения или маленькой сумки, а дальше собирай свою версию gyaru. У этой эстетики много направлений, и повторять чужой образ целиком не обязательно.","categoryIds":["gyaru"]},{"id":"emo","title":"Твой акцент — Emo","description":"Ты выбираешь эмоциональный образ и детали, за которыми есть личная история. Клетка и тёмная обувь могут стать отправной точкой, но важнее то, с чем тебе комфортно выражать себя.","categoryIds":["emo"]},{"id":"scene","title":"Твой акцент — Scene","description":"Тебе нравятся контрасты и визуальная энергия. Сочетай любимую базу с небольшими смелыми акцентами, пробуй многослойность и не бойся смешивать настроение нулевых с сегодняшним гардеробом.","categoryIds":["scene"]},{"id":"streetwear","title":"Твой акцент — Streetwear","description":"Ты любишь вещи, в которых можно двигаться и проживать день в своём темпе. Свободные силуэты, слои и практичность помогут собрать образ без ощущения костюма.","categoryIds":["streetwear"]},{"id":"sagging","title":"Твой акцент — Baggy / Sagging","description":"Тебе близки широкие силуэты и расслабленная посадка. Sagging — приём с низкой посадкой брюк, который можно сочетать со streetwear, а не строгий набор правил. Выбирай удобную посадку и вещи, в которых безопасно и комфортно двигаться.","categoryIds":["sagging"]}],"questions":[{"id":"first","text":"Какую деталь замечаешь первой?","answers":[{"text":"Украшения и выразительную сумку","resultId":"gyaru"},{"text":"Клетку и тёмные акценты","resultId":"emo"},{"text":"Яркий контраст и многослойность","resultId":"scene"},{"text":"Удобный городской силуэт","resultId":"streetwear"},{"text":"Ширину брюк и расслабленную посадку","resultId":"sagging"}]},{"id":"weekend","text":"Чем хочется заняться в свободный день?","answers":[{"text":"Примерить несколько заметных сочетаний","resultId":"gyaru"},{"text":"Погулять под любимые эмоциональные треки","resultId":"emo"},{"text":"Собрать необычный образ с друзьями","resultId":"scene"},{"text":"Провести день в городе и много двигаться","resultId":"streetwear"},{"text":"Найти идеально сидящие широкие брюки","resultId":"sagging"}]},{"id":"mix","text":"Что добавишь к самой простой базе?","answers":[{"text":"Сумку и украшение с характером","resultId":"gyaru"},{"text":"Клетчатый слой и тёмную обувь","resultId":"emo"},{"text":"Контрастную деталь из настроения нулевых","resultId":"scene"},{"text":"Свободную куртку и практичную сумку","resultId":"streetwear"},{"text":"Объёмный верх к низкой посадке","resultId":"sagging"}]},{"id":"fit","text":"Что важнее при примерке?","answers":[{"text":"Чтобы вещь помогала выразить настроение","resultId":"gyaru"},{"text":"Чтобы она ощущалась личной и любимой","resultId":"emo"},{"text":"Чтобы с ней получалось неожиданное сочетание","resultId":"scene"},{"text":"Чтобы в ней было удобно жить весь день","resultId":"streetwear"},{"text":"Чтобы объём и посадка работали вместе","resultId":"sagging"}]},{"id":"motto","text":"Выбери фразу для своего гардероба.","answers":[{"text":"Мой образ может быть заметным","resultId":"gyaru"},{"text":"У моих вещей есть чувства и история","resultId":"emo"},{"text":"Мне интересно смешивать и пробовать","resultId":"scene"},{"text":"Комфорт тоже может быть выразительным","resultId":"streetwear"},{"text":"Свобода начинается с удобной посадки","resultId":"sagging"}]}],"id":"new-style-vibe","kind":"quiz"}],"collections":[{"title":"После полуночи","description":"Тёмные силуэты и выразительные детали для твоего ночного города.","image":"/assets/hero.jpg","categoryIds":["goth","punk"],"id":"after-dark","kind":"collection"},{"title":"Нежный бунт","description":"Цветы, мягкие ткани и романтика, у которой есть характер.","image":"/assets/coquette.jpg","categoryIds":["coquette","fairycore"],"id":"soft-rebellion","kind":"collection"},{"title":"Привет из 90-х","description":"Клетка, деним и вещи, которым не нужны правила.","image":"/assets/grunge.jpg","categoryIds":["grunge","y2k","vintage"],"id":"back-to-90s","kind":"collection"},{"title":"Гардероб из сохранёнок","description":"Нулевые, блеск и контрастные детали: собери свою версию знакомых эстетик из социальных сетей.","image":"/assets/y2k.jpg","categoryIds":["gyaru","scene","y2k","mcbling"],"id":"digital-dressing-room","kind":"collection"},{"title":"После репетиции","description":"Повседневные слои и небольшие акценты для тех дней, когда любимая музыка идёт с тобой по городу.","image":"/assets/jacket.jpg","categoryIds":["k-fashion","streetwear","acubi","y2k"],"id":"kpop-offstage","kind":"collection"},{"title":"Мягкий выходной","description":"Вышивка, цветы и уютные силуэты. Состав каждой реальной вещи смотри отдельно в её карточке.","image":"/assets/coquette.jpg","categoryIds":["cottagecore","balletcore","coquette","fairycore"],"id":"soft-everyday","kind":"collection"}],"links":[{"quizId":"find-your-vibe","resultId":"goth","itemId":"leather-jacket","id":"link-vibe-goth-jacket","kind":"link"},{"quizId":"find-your-vibe","resultId":"goth","itemId":"platform-boots","id":"link-vibe-goth-boots","kind":"link"},{"quizId":"find-your-vibe","resultId":"grunge","itemId":"plaid-skirt","id":"link-vibe-grunge-skirt","kind":"link"},{"quizId":"find-your-vibe","resultId":"grunge","itemId":"denim-bag","id":"link-vibe-grunge-bag","kind":"link"},{"quizId":"find-your-vibe","resultId":"coquette","itemId":"velvet-dress","id":"link-vibe-coquette-dress","kind":"link"},{"quizId":"find-your-vibe","resultId":"coquette","itemId":"lace-top","id":"link-vibe-coquette-top","kind":"link"},{"quizId":"find-your-vibe","resultId":"dark-academia","itemId":"knit-cardigan","id":"link-vibe-academia-knit","kind":"link"},{"quizId":"night-city","resultId":"goth","itemId":"platform-boots","id":"link-night-goth-boots","kind":"link"},{"quizId":"night-city","resultId":"y2k","itemId":"denim-bag","id":"link-night-y2k-bag","kind":"link"},{"quizId":"night-city","resultId":"grunge","itemId":"leather-jacket","id":"link-night-grunge-jacket","kind":"link"},{"quizId":"soft-side","resultId":"coquette","itemId":"silver-necklace","id":"link-soft-coquette-chain","kind":"link"},{"quizId":"soft-side","resultId":"fairycore","itemId":"velvet-dress","id":"link-soft-fairy-dress","kind":"link"},{"quizId":"soft-side","resultId":"dark-academia","itemId":"plaid-skirt","id":"link-soft-academia-skirt","kind":"link"},{"quizId":"soundtrack","resultId":"grunge","itemId":"plaid-skirt","id":"link-music-grunge-skirt","kind":"link"},{"quizId":"soundtrack","resultId":"goth","itemId":"leather-jacket","id":"link-music-goth-jacket","kind":"link"},{"quizId":"soundtrack","resultId":"y2k","itemId":"denim-bag","id":"link-music-y2k-bag","kind":"link"},{"quizId":"kpop-stage","resultId":"stage-power","itemId":"leather-jacket","id":"link-stage-power-jacket","kind":"link"},{"quizId":"kpop-stage","resultId":"stage-power","itemId":"denim-bag","id":"link-stage-power-bag","kind":"link"},{"quizId":"kpop-stage","resultId":"stage-sparkle","itemId":"silver-necklace","id":"link-stage-sparkle-chain","kind":"link"},{"quizId":"kpop-stage","resultId":"stage-sparkle","itemId":"denim-bag","id":"link-stage-sparkle-bag","kind":"link"},{"quizId":"kpop-stage","resultId":"stage-soft","itemId":"lace-top","id":"link-stage-soft-top","kind":"link"},{"quizId":"kpop-stage","resultId":"stage-soft","itemId":"velvet-dress","id":"link-stage-soft-dress","kind":"link"},{"quizId":"kpop-stage","resultId":"stage-retro","itemId":"denim-bag","id":"link-stage-retro-bag","kind":"link"},{"quizId":"kpop-stage","resultId":"stage-retro","itemId":"silver-necklace","id":"link-stage-retro-chain","kind":"link"},{"quizId":"music-alter-ego","resultId":"emo-heart","itemId":"plaid-skirt","id":"link-alter-emo-skirt","kind":"link"},{"quizId":"music-alter-ego","resultId":"emo-heart","itemId":"platform-boots","id":"link-alter-emo-boots","kind":"link"},{"quizId":"music-alter-ego","resultId":"scene-spark","itemId":"denim-bag","id":"link-alter-scene-bag","kind":"link"},{"quizId":"music-alter-ego","resultId":"scene-spark","itemId":"plaid-skirt","id":"link-alter-scene-skirt","kind":"link"},{"quizId":"music-alter-ego","resultId":"dark-wave","itemId":"leather-jacket","id":"link-alter-dark-jacket","kind":"link"},{"quizId":"music-alter-ego","resultId":"dark-wave","itemId":"platform-boots","id":"link-alter-dark-boots","kind":"link"},{"quizId":"music-alter-ego","resultId":"street-flow","itemId":"leather-jacket","id":"link-alter-street-jacket","kind":"link"},{"quizId":"music-alter-ego","resultId":"street-flow","itemId":"denim-bag","id":"link-alter-street-bag","kind":"link"},{"quizId":"new-style-vibe","resultId":"gyaru","itemId":"denim-bag","id":"link-style-gyaru-bag","kind":"link"},{"quizId":"new-style-vibe","resultId":"gyaru","itemId":"silver-necklace","id":"link-style-gyaru-chain","kind":"link"},{"quizId":"new-style-vibe","resultId":"emo","itemId":"plaid-skirt","id":"link-style-emo-skirt","kind":"link"},{"quizId":"new-style-vibe","resultId":"emo","itemId":"platform-boots","id":"link-style-emo-boots","kind":"link"},{"quizId":"new-style-vibe","resultId":"scene","itemId":"denim-bag","id":"link-style-scene-bag","kind":"link"},{"quizId":"new-style-vibe","resultId":"scene","itemId":"plaid-skirt","id":"link-style-scene-skirt","kind":"link"},{"quizId":"new-style-vibe","resultId":"streetwear","itemId":"leather-jacket","id":"link-style-street-jacket","kind":"link"},{"quizId":"new-style-vibe","resultId":"streetwear","itemId":"denim-bag","id":"link-style-street-bag","kind":"link"},{"quizId":"new-style-vibe","resultId":"sagging","itemId":"silver-necklace","id":"link-style-sagging-chain","kind":"link"}]}
+{
+  "categories": [
+    {
+      "name": "Goth",
+      "slug": "goth",
+      "description": "Тёмная романтика, выразительные силуэты, кожа и металлические детали.",
+      "id": "goth",
+      "kind": "category"
+    },
+    {
+      "name": "Grunge",
+      "slug": "grunge",
+      "description": "Свободные слои, клетка, грубые фактуры и настроение гитарных концертов.",
+      "id": "grunge",
+      "kind": "category"
+    },
+    {
+      "name": "Coquette",
+      "slug": "coquette",
+      "description": "Цветы, вышивка, лёгкие ткани и романтичные маленькие детали.",
+      "id": "coquette",
+      "kind": "category"
+    },
+    {
+      "name": "Dark Academia",
+      "slug": "dark-academia",
+      "description": "Книги, шерсть, клетка и сдержанная палитра старого университета.",
+      "id": "dark-academia",
+      "kind": "category"
+    },
+    {
+      "name": "Y2K",
+      "slug": "y2k",
+      "description": "Деним, компактные сумки и энергия моды нулевых.",
+      "id": "y2k",
+      "kind": "category"
+    },
+    {
+      "name": "Vintage",
+      "slug": "vintage",
+      "description": "Любимые вещи прошлых десятилетий и находки с собственной историей.",
+      "id": "vintage",
+      "kind": "category"
+    },
+    {
+      "name": "Punk",
+      "slug": "punk",
+      "description": "Независимость, контрастные сочетания, металл и смелые акценты.",
+      "id": "punk",
+      "kind": "category"
+    },
+    {
+      "name": "Fairycore",
+      "slug": "fairycore",
+      "description": "Природные мотивы, цветочные узоры и немного тихого волшебства.",
+      "id": "fairycore",
+      "kind": "category"
+    },
+    {
+      "name": "Гяру · Gyaru",
+      "slug": "gyaru",
+      "description": "Выразительные аксессуары, игра фактур и личная версия японской уличной эстетики. У gyaru много разных направлений.",
+      "id": "gyaru",
+      "kind": "category"
+    },
+    {
+      "name": "Эмо · Emo",
+      "slug": "emo",
+      "description": "Эмоциональная музыка, тёмные акценты, клетка и вещи, через которые хочется выражать себя.",
+      "id": "emo",
+      "kind": "category"
+    },
+    {
+      "name": "Сцен · Scene",
+      "slug": "scene",
+      "description": "Контрасты, яркие детали, многослойность и интернет-энергия нулевых.",
+      "id": "scene",
+      "kind": "category"
+    },
+    {
+      "name": "Стритвир · Streetwear",
+      "slug": "streetwear",
+      "description": "Уличная одежда, свободные силуэты, удобство и сочетание повседневных вещей с выразительными деталями.",
+      "id": "streetwear",
+      "kind": "category"
+    },
+    {
+      "name": "Baggy / Sagging",
+      "slug": "sagging",
+      "description": "Широкие брюки и расслабленная низкая посадка. Sagging — способ стилизации, который может пересекаться со streetwear.",
+      "id": "sagging",
+      "kind": "category"
+    },
+    {
+      "name": "Коттеджкор · Cottagecore",
+      "slug": "cottagecore",
+      "description": "Сельская романтика, цветочные мотивы, мягкие силуэты и ощущение неспешного дня.",
+      "id": "cottagecore",
+      "kind": "category"
+    },
+    {
+      "name": "Горпкор · Gorpcore",
+      "slug": "gorpcore",
+      "description": "Элементы походной одежды в городе: функциональность, слои и практичные детали.",
+      "id": "gorpcore",
+      "kind": "category"
+    },
+    {
+      "name": "Акуби · Acubi",
+      "slug": "acubi",
+      "description": "Сдержанная палитра, необычные пропорции и многослойные повседневные сочетания.",
+      "id": "acubi",
+      "kind": "category"
+    },
+    {
+      "name": "Блоккор · Blokecore",
+      "slug": "blokecore",
+      "description": "Футбольные силуэты, спортивный трикотаж и повседневные сочетания с винтажным настроением.",
+      "id": "blokecore",
+      "kind": "category"
+    },
+    {
+      "name": "Балеткор · Balletcore",
+      "slug": "balletcore",
+      "description": "Ленты, мягкие слои и пластичные силуэты, вдохновлённые тренировочной одеждой балета.",
+      "id": "balletcore",
+      "kind": "category"
+    },
+    {
+      "name": "K-fashion",
+      "slug": "k-fashion",
+      "description": "Корейская уличная мода: от спокойной многослойности до выразительных силуэтов. Единого обязательного образа здесь нет.",
+      "id": "k-fashion",
+      "kind": "category"
+    },
+    {
+      "name": "McBling",
+      "slug": "mcbling",
+      "description": "Блеск, заметные украшения, маленькие сумки и настроение поп-культуры нулевых.",
+      "id": "mcbling",
+      "kind": "category"
+    }
+  ],
+  "items": [
+    {
+      "id": "owner-brown-bomber",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Коричневый укороченный бомбер",
+      "description": "Коричневый укороченный бомбер под замшу с воротником, молнией и карманами. Рельефная фактура и резинка по низу создают силуэт в духе 2000-х.",
+      "brand": "FGL",
+      "price": null,
+      "priceEstimate": null,
+      "size": "L",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "polyurethane",
+          "percent": 68.8
+        },
+        {
+          "material": "polyester",
+          "percent": 28.3
+        },
+        {
+          "material": "viscose",
+          "percent": 1.6
+        },
+        {
+          "material": "cotton",
+          "percent": 1.3
+        }
+      ],
+      "compositionNote": "68,8% полиуретан, 28,3% полиэстер, 1,6% вискоза, 1,3% хлопок",
+      "categoryIds": [
+        "y2k"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "2000s Casual",
+        "Indie Sleaze"
+      ],
+      "collectionIds": [
+        "noughties",
+        "street"
+      ],
+      "image": "./images/products/brown-bomber/01.webp",
+      "images": [
+        "./images/products/brown-bomber/01.webp",
+        "./images/products/brown-bomber/02.webp",
+        "./images/products/brown-bomber/03.webp",
+        "./images/products/brown-bomber/04.webp",
+        "./images/products/brown-bomber/05.webp",
+        "./images/products/brown-bomber/06.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-black-cardigan",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Чёрный кардиган в рубчик",
+      "description": "Чёрный кардиган в мелкий рубчик, с V-образным вырезом, пуговицами и длинными рукавами. Базовая вещь для многослойных образов.",
+      "brand": null,
+      "price": null,
+      "priceEstimate": null,
+      "size": "Уточняется",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "viscose",
+          "percent": 70.0
+        },
+        {
+          "material": "polyamide",
+          "percent": 30.0
+        }
+      ],
+      "compositionNote": "70% вискоза, 30% нейлон",
+      "categoryIds": [
+        "dark-academia"
+      ],
+      "aesthetics": [
+        "Dark Academia",
+        "Normcore",
+        "Minimal"
+      ],
+      "collectionIds": [
+        "dark-academia"
+      ],
+      "image": "./images/products/black-cardigan/01.webp",
+      "images": [
+        "./images/products/black-cardigan/01.webp",
+        "./images/products/black-cardigan/02.webp",
+        "./images/products/black-cardigan/03.webp",
+        "./images/products/black-cardigan/04.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-black-off-shoulder",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Чёрный топ с открытыми плечами TCM",
+      "description": "Чёрный топ с широким воланом и открытыми плечами. Нейтральный цвет позволяет сочетать его с джинсами и мини-юбками.",
+      "brand": "TCM",
+      "price": null,
+      "priceEstimate": null,
+      "size": "Уточняется",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "polyester",
+          "percent": 65.0
+        },
+        {
+          "material": "viscose",
+          "percent": 35.0
+        }
+      ],
+      "compositionNote": "65% полиэстер, 35% вискоза",
+      "categoryIds": [
+        "y2k"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "2000s Casual",
+        "Summer Casual"
+      ],
+      "collectionIds": [
+        "noughties",
+        "summer"
+      ],
+      "image": "./images/products/black-off-shoulder/01.webp",
+      "images": [
+        "./images/products/black-off-shoulder/01.webp",
+        "./images/products/black-off-shoulder/02.webp",
+        "./images/products/black-off-shoulder/03.webp",
+        "./images/products/black-off-shoulder/04.webp",
+        "./images/products/black-off-shoulder/05.webp",
+        "./images/products/black-off-shoulder/06.webp",
+        "./images/products/black-off-shoulder/07.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-grey-lace-up",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Серая трикотажная туника со шнуровкой",
+      "description": "Серая трикотажная туника в рубчик с длинными рукавами и декоративной шнуровкой у выреза. Подойдёт для повседневных образов с джинсами.",
+      "brand": "Chicorée",
+      "price": null,
+      "priceEstimate": null,
+      "size": "XL",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "cotton",
+          "percent": 80.0
+        },
+        {
+          "material": "polyamide",
+          "percent": 20.0
+        }
+      ],
+      "compositionNote": "80% хлопок, 20% полиамид",
+      "categoryIds": [
+        "y2k"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "Soft Grunge",
+        "2000s Casual"
+      ],
+      "collectionIds": [
+        "noughties",
+        "street"
+      ],
+      "image": "./images/products/grey-lace-up/01.webp",
+      "images": [
+        "./images/products/grey-lace-up/01.webp",
+        "./images/products/grey-lace-up/02.webp",
+        "./images/products/grey-lace-up/03.webp",
+        "./images/products/grey-lace-up/04.webp",
+        "./images/products/grey-lace-up/05.webp",
+        "./images/products/grey-lace-up/06.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-grey-bandeau",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Серый топ-бандо в рубчик",
+      "description": "Серый трикотажный топ-бандо без бретелей с формованной линией верхнего края. Минималистичная основа для летних образов.",
+      "brand": null,
+      "price": null,
+      "priceEstimate": null,
+      "size": "Уточняется",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "acrylic",
+          "percent": 100.0
+        }
+      ],
+      "compositionNote": "100% акрил",
+      "categoryIds": [
+        "y2k"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "Minimal",
+        "Summer Casual"
+      ],
+      "collectionIds": [
+        "noughties",
+        "summer"
+      ],
+      "image": "./images/products/grey-bandeau/01.webp",
+      "images": [
+        "./images/products/grey-bandeau/01.webp",
+        "./images/products/grey-bandeau/02.webp",
+        "./images/products/grey-bandeau/03.webp",
+        "./images/products/grey-bandeau/04.webp",
+        "./images/products/grey-bandeau/05.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-beige-skort",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Бежевая юбка-шорты",
+      "description": "Бежевая короткая юбка-шорты с перекрывающей передней панелью и скрытыми шортами. Лаконичный фасон для летнего гардероба.",
+      "brand": null,
+      "price": null,
+      "priceEstimate": null,
+      "size": "M",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": null,
+      "compositionNote": null,
+      "categoryIds": [],
+      "aesthetics": [
+        "Summer Casual",
+        "Minimal",
+        "2000s Casual"
+      ],
+      "collectionIds": [
+        "summer"
+      ],
+      "image": "./images/products/beige-skort/01.webp",
+      "images": [
+        "./images/products/beige-skort/01.webp",
+        "./images/products/beige-skort/02.webp",
+        "./images/products/beige-skort/03.webp",
+        "./images/products/beige-skort/04.webp",
+        "./images/products/beige-skort/05.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-blue-mini-skirt",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Серо-голубая мини-юбка на пуговицах",
+      "description": "Серо-голубая короткая юбка с рядом пуговиц сбоку и широким поясом. Повседневный силуэт в духе 2000-х.",
+      "brand": null,
+      "price": null,
+      "priceEstimate": null,
+      "size": "EU 36",
+      "russianSize": "RU 42 (ориентировочно)",
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "cotton",
+          "percent": 100.0
+        }
+      ],
+      "compositionNote": "100% хлопок",
+      "categoryIds": [
+        "y2k"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "Indie Kid",
+        "2000s Casual"
+      ],
+      "collectionIds": [
+        "noughties",
+        "summer"
+      ],
+      "image": "./images/products/blue-mini-skirt/01.webp",
+      "images": [
+        "./images/products/blue-mini-skirt/01.webp",
+        "./images/products/blue-mini-skirt/02.webp",
+        "./images/products/blue-mini-skirt/03.webp",
+        "./images/products/blue-mini-skirt/04.webp",
+        "./images/products/blue-mini-skirt/05.webp",
+        "./images/products/blue-mini-skirt/06.webp",
+        "./images/products/blue-mini-skirt/07.webp",
+        "./images/products/blue-mini-skirt/08.webp",
+        "./images/products/blue-mini-skirt/09.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-black-beaded-dress",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Чёрное мини-платье с бахромой из бусин",
+      "description": "Чёрное приталенное мини-платье на тонких бретелях с асимметричной отделкой серебристой бусинной бахромой по краю.",
+      "brand": null,
+      "price": null,
+      "priceEstimate": null,
+      "size": "Уточняется",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "cotton",
+          "percent": 35.0
+        },
+        {
+          "material": "polyester",
+          "percent": 65.0
+        }
+      ],
+      "compositionNote": "35% хлопок, 65% полиэстер",
+      "categoryIds": [
+        "y2k",
+        "mcbling"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "McBling",
+        "Party",
+        "Indie Sleaze"
+      ],
+      "collectionIds": [
+        "noughties",
+        "party"
+      ],
+      "image": "./images/products/black-beaded-dress/01.webp",
+      "images": [
+        "./images/products/black-beaded-dress/01.webp",
+        "./images/products/black-beaded-dress/02.webp",
+        "./images/products/black-beaded-dress/03.webp",
+        "./images/products/black-beaded-dress/04.webp",
+        "./images/products/black-beaded-dress/05.webp",
+        "./images/products/black-beaded-dress/06.webp",
+        "./images/products/black-beaded-dress/07.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-black-blue-floral-top",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Тёмный топ с бирюзовым цветочным принтом",
+      "description": "Тёмный асимметричный топ с ярким бирюзовым растительным рисунком. Акцентный принт для летнего образа.",
+      "brand": "Maui Wowie",
+      "price": null,
+      "priceEstimate": null,
+      "size": "M",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "viscose",
+          "percent": 95.0
+        },
+        {
+          "material": "elastane",
+          "percent": 5.0
+        }
+      ],
+      "compositionNote": "95% вискоза, 5% эластан",
+      "categoryIds": [
+        "y2k"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "Surf Girl",
+        "2000s Casual"
+      ],
+      "collectionIds": [
+        "noughties",
+        "summer"
+      ],
+      "image": "./images/products/black-blue-floral-top/01.webp",
+      "images": [
+        "./images/products/black-blue-floral-top/01.webp",
+        "./images/products/black-blue-floral-top/02.webp",
+        "./images/products/black-blue-floral-top/03.webp",
+        "./images/products/black-blue-floral-top/04.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-black-graphic-longsleeve",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Чёрный лонгслив с абстрактным принтом",
+      "description": "Чёрный приталенный лонгслив с фигурным вырезом, завязками на груди и разноцветными изогнутыми линиями по нижней части.",
+      "brand": null,
+      "price": null,
+      "priceEstimate": 890,
+      "size": "RU 44",
+      "russianSize": "RU 44",
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "viscose",
+          "percent": 85.0
+        },
+        {
+          "material": "polyester",
+          "percent": 11.0
+        },
+        {
+          "material": "polyamide",
+          "percent": 4.0
+        }
+      ],
+      "compositionNote": "85% вискоза, 11% полиэстер, 4% полиамид",
+      "categoryIds": [
+        "y2k"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "2000s Casual",
+        "Indie Sleaze",
+        "Soft Grunge"
+      ],
+      "collectionIds": [
+        "noughties",
+        "street"
+      ],
+      "image": "./images/products/black-graphic-longsleeve/01.webp",
+      "images": [
+        "./images/products/black-graphic-longsleeve/01.webp",
+        "./images/products/black-graphic-longsleeve/02.webp",
+        "./images/products/black-graphic-longsleeve/03.webp",
+        "./images/products/black-graphic-longsleeve/04.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-camo-layered-jacket",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Камуфляжная куртка с контрастным капюшоном",
+      "description": "Камуфляжная куртка серых оттенков со светлым капюшоном, карманами, надписями и декоративными нашивками. Многослойный дизайн в духе уличной моды 2000-х.",
+      "brand": "EURO JEANS",
+      "price": null,
+      "priceEstimate": 2290,
+      "size": "XXL",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": null,
+      "compositionNote": "100% хлопок (по бирке; состав светлой детали отдельно не подтверждён)",
+      "categoryIds": [
+        "y2k",
+        "grunge"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "Military Streetwear",
+        "Skater",
+        "Grunge"
+      ],
+      "collectionIds": [
+        "noughties",
+        "street"
+      ],
+      "image": "./images/products/camo-layered-jacket/01.webp",
+      "images": [
+        "./images/products/camo-layered-jacket/01.webp",
+        "./images/products/camo-layered-jacket/02.webp",
+        "./images/products/camo-layered-jacket/03.webp",
+        "./images/products/camo-layered-jacket/04.webp",
+        "./images/products/camo-layered-jacket/05.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-plaid-wrap-skirt",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Асимметричная юбка в клетку с поясом",
+      "description": "Асимметричная юбка в бордово-оливковую клетку с запахом и декоративной деталью у пояса. Подойдёт для альтернативных и академических образов.",
+      "brand": null,
+      "price": null,
+      "priceEstimate": null,
+      "size": "Уточняется",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "cotton",
+          "percent": 100.0
+        }
+      ],
+      "compositionNote": "100% хлопок",
+      "categoryIds": [
+        "dark-academia",
+        "grunge"
+      ],
+      "aesthetics": [
+        "Gothic Preppy",
+        "Dark Academia",
+        "Grunge",
+        "Schoolcore"
+      ],
+      "collectionIds": [
+        "dark-academia",
+        "street"
+      ],
+      "image": "./images/products/plaid-wrap-skirt/01.webp",
+      "images": [
+        "./images/products/plaid-wrap-skirt/01.webp",
+        "./images/products/plaid-wrap-skirt/02.webp",
+        "./images/products/plaid-wrap-skirt/03.webp",
+        "./images/products/plaid-wrap-skirt/04.webp",
+        "./images/products/plaid-wrap-skirt/05.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-denim-capri",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Джинсовые капри с нашивками и цветными деталями",
+      "description": "Укороченные джинсовые капри с декоративными потёртостями, яркой аппликацией и контрастной красной отделкой задних карманов.",
+      "brand": null,
+      "price": null,
+      "priceEstimate": null,
+      "size": "EU 42",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "cotton",
+          "percent": 100.0
+        }
+      ],
+      "compositionNote": "100% хлопок",
+      "categoryIds": [
+        "y2k"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "2000s Casual",
+        "Indie Kid"
+      ],
+      "collectionIds": [
+        "noughties",
+        "street"
+      ],
+      "image": "./images/products/denim-capri/01.webp",
+      "images": [
+        "./images/products/denim-capri/01.webp",
+        "./images/products/denim-capri/02.webp",
+        "./images/products/denim-capri/03.webp",
+        "./images/products/denim-capri/04.webp",
+        "./images/products/denim-capri/05.webp",
+        "./images/products/denim-capri/06.webp",
+        "./images/products/denim-capri/07.webp",
+        "./images/products/denim-capri/08.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-mustard-shorts",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Горчично-жёлтые хлопковые шорты",
+      "description": "Горчично-жёлтые шорты с отворотами, карманами и классической застёжкой. Хорошо сочетаются с однотонными футболками и топами.",
+      "brand": "H&M",
+      "price": null,
+      "priceEstimate": 690,
+      "size": "EU 36",
+      "russianSize": "RU 42 (ориентировочно)",
+      "condition": "Уточняется",
+      "composition": null,
+      "compositionNote": "97% хлопок, 3% эластан; подкладка карманов — 100% полиэстер",
+      "categoryIds": [],
+      "aesthetics": [
+        "Indie Kid",
+        "70s Retro",
+        "Summer Casual",
+        "Dopamine Dressing"
+      ],
+      "collectionIds": [
+        "summer",
+        "noughties"
+      ],
+      "image": "./images/products/mustard-shorts/01.webp",
+      "images": [
+        "./images/products/mustard-shorts/01.webp",
+        "./images/products/mustard-shorts/02.webp",
+        "./images/products/mustard-shorts/03.webp",
+        "./images/products/mustard-shorts/04.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-snakeskin-shorts",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Серые джинсовые шорты со змеиным принтом",
+      "description": "Серые джинсовые шорты с потёртостями и анималистичным принтом под змеиную кожу. Для образов Y2K и Indie Sleaze.",
+      "brand": "Summum Woman",
+      "price": null,
+      "priceEstimate": 1490,
+      "size": "EU 40",
+      "russianSize": "RU 46 (ориентировочно)",
+      "condition": "Уточняется",
+      "composition": [
+        {
+          "material": "cotton",
+          "percent": 98.0
+        },
+        {
+          "material": "elastane",
+          "percent": 2.0
+        }
+      ],
+      "compositionNote": "98% хлопок, 2% эластан",
+      "categoryIds": [
+        "y2k",
+        "grunge"
+      ],
+      "aesthetics": [
+        "Y2K",
+        "Indie Sleaze",
+        "Grunge",
+        "Rockstar Girlfriend"
+      ],
+      "collectionIds": [
+        "noughties",
+        "street"
+      ],
+      "image": "./images/products/snakeskin-shorts/01.webp",
+      "images": [
+        "./images/products/snakeskin-shorts/01.webp",
+        "./images/products/snakeskin-shorts/02.webp",
+        "./images/products/snakeskin-shorts/03.webp",
+        "./images/products/snakeskin-shorts/04.webp",
+        "./images/products/snakeskin-shorts/05.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "id": "owner-black-pleated-skirt",
+      "kind": "item",
+      "ownerItem": true,
+      "title": "Чёрная юбка в складку с клетчатой отделкой",
+      "description": "Чёрная расклёшенная юбка с широкой кокеткой, объёмными складками и тёмной клетчатой отделкой с бордовыми линиями.",
+      "brand": "Bravo Fayso",
+      "price": null,
+      "priceEstimate": 890,
+      "size": "Уточняется",
+      "russianSize": null,
+      "condition": "Уточняется",
+      "composition": null,
+      "compositionNote": null,
+      "categoryIds": [
+        "dark-academia",
+        "y2k"
+      ],
+      "aesthetics": [
+        "Gothic Preppy",
+        "Dark Academia",
+        "Soft Grunge",
+        "Y2K",
+        "Schoolcore"
+      ],
+      "collectionIds": [
+        "dark-academia",
+        "noughties"
+      ],
+      "image": "./images/products/black-pleated-skirt/01.webp",
+      "images": [
+        "./images/products/black-pleated-skirt/01.webp",
+        "./images/products/black-pleated-skirt/02.webp"
+      ],
+      "externalUrl": null,
+      "marketplace": "Мой гардероб"
+    },
+    {
+      "title": "Кожаная куртка с характером",
+      "description": "Чёрная куртка с косой молнией и выразительным воротником. Хорошо сочетается с мягким трикотажем и светлыми тканями.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.",
+      "price": 1500,
+      "size": "M",
+      "condition": "Очень хорошее",
+      "categoryIds": [
+        "goth",
+        "grunge",
+        "punk",
+        "streetwear",
+        "emo",
+        "acubi"
+      ],
+      "image": "/assets/goth.jpg",
+      "externalUrl": null,
+      "marketplace": "Демо-вещь",
+      "id": "leather-jacket",
+      "kind": "item"
+    },
+    {
+      "title": "Белый топ с вышивкой",
+      "description": "Лёгкий белый топ с декоративной вышивкой. Добавь кардиган или носи поверх лаконичной майки для многослойного образа.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.",
+      "price": 350,
+      "size": "S",
+      "condition": "Хорошее",
+      "categoryIds": [
+        "coquette",
+        "vintage",
+        "fairycore",
+        "balletcore",
+        "cottagecore",
+        "k-fashion"
+      ],
+      "image": "/assets/lace.jpg",
+      "externalUrl": null,
+      "marketplace": "Демо-вещь",
+      "id": "lace-top",
+      "kind": "item"
+    },
+    {
+      "title": "Юбка в крупную клетку",
+      "description": "Длинная клетчатая юбка в спокойной палитре. Сочетается с плотными колготками, ботинками и объёмным верхом.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.",
+      "price": 650,
+      "size": "M",
+      "condition": "Очень хорошее",
+      "categoryIds": [
+        "grunge",
+        "dark-academia",
+        "vintage",
+        "emo",
+        "scene"
+      ],
+      "image": "/assets/plaid.jpg",
+      "externalUrl": null,
+      "marketplace": "Демо-вещь",
+      "id": "plaid-skirt",
+      "kind": "item"
+    },
+    {
+      "title": "Чёрные винтажные ботильоны",
+      "description": "Чёрные ботильоны с острым носком и небольшим каблуком. Добавляют выразительности простому образу с денимом.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.",
+      "price": 1200,
+      "size": "38",
+      "condition": "Хорошее",
+      "categoryIds": [
+        "goth",
+        "vintage",
+        "emo",
+        "gyaru"
+      ],
+      "image": "/assets/boots.jpg",
+      "externalUrl": null,
+      "marketplace": "Демо-вещь",
+      "id": "platform-boots",
+      "kind": "item"
+    },
+    {
+      "title": "Платье с цветочной историей",
+      "description": "Светлое платье с цветочным узором и завязками. Носи с грубой обувью для контраста или с лёгкой сумкой для романтичного настроения.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.",
+      "price": 800,
+      "size": "S–M",
+      "condition": "Очень хорошее",
+      "categoryIds": [
+        "coquette",
+        "fairycore",
+        "vintage",
+        "cottagecore",
+        "balletcore"
+      ],
+      "image": "/assets/coquette.jpg",
+      "externalUrl": null,
+      "marketplace": "Демо-вещь",
+      "id": "velvet-dress",
+      "kind": "item"
+    },
+    {
+      "title": "Джинсовая сумка из нулевых",
+      "description": "Мягкая сумка из синего денима с небольшими карманами. Компактный спутник для телефона, ключей и любимых мелочей.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.",
+      "price": 500,
+      "size": "One size",
+      "condition": "Хорошее",
+      "categoryIds": [
+        "y2k",
+        "grunge",
+        "vintage",
+        "streetwear",
+        "gyaru",
+        "scene"
+      ],
+      "image": "/assets/bag.jpg",
+      "externalUrl": null,
+      "marketplace": "Демо-вещь",
+      "id": "denim-bag",
+      "kind": "item"
+    },
+    {
+      "title": "Тёплый кардиган цвета кофе",
+      "description": "Свободный удлинённый кардиган в тёплом коричневом оттенке. Для прохладных прогулок, уютных вечеров и любимых книг.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.",
+      "price": 750,
+      "size": "M–L",
+      "condition": "Очень хорошее",
+      "categoryIds": [
+        "dark-academia",
+        "vintage",
+        "cottagecore",
+        "acubi",
+        "k-fashion"
+      ],
+      "image": "/assets/academia.jpg",
+      "externalUrl": null,
+      "marketplace": "Демо-вещь",
+      "id": "knit-cardigan",
+      "kind": "item"
+    },
+    {
+      "title": "Тонкая винтажная цепочка",
+      "description": "Деликатная цепочка тёплого металлического оттенка. Носи самостоятельно или сочетай с другими украшениями разной длины.\n\nЭто демонстрационная карточка. Фотография иллюстрирует стиль; вещь не продаётся, цена и состояние приведены для примера.",
+      "price": 200,
+      "size": "One size",
+      "condition": "Хорошее",
+      "categoryIds": [
+        "coquette",
+        "vintage",
+        "y2k",
+        "gyaru",
+        "mcbling",
+        "sagging"
+      ],
+      "image": "/assets/necklace.jpg",
+      "externalUrl": null,
+      "marketplace": "Демо-вещь",
+      "id": "silver-necklace",
+      "kind": "item"
+    }
+  ],
+  "quizzes": [
+    {
+      "title": "Какой у тебя вайб?",
+      "description": "Немного интуиции, любимых деталей и никаких правил. Найди эстетику, в которой ты чувствуешь себя собой.",
+      "image": "/assets/goth.jpg",
+      "topic": "style",
+      "author": "Редакция VIBE",
+      "categoryIds": [
+        "goth",
+        "grunge",
+        "coquette",
+        "dark-academia"
+      ],
+      "results": [
+        {
+          "id": "goth",
+          "title": "Твой вайб — Goth",
+          "description": "Ты находишь красоту в тенях. Чёрные силуэты, серебристые детали и немного театральности помогают рассказать твою историю. Начни с кожаной куртки и одного выразительного украшения.",
+          "categoryIds": [
+            "goth"
+          ]
+        },
+        {
+          "id": "grunge",
+          "title": "Твой вайб — Grunge",
+          "description": "В твоём гардеробе живёт свобода. Клетка, свободные слои и вещи с характером подходят тебе больше безупречно выверенного образа. Носи любимое так, как удобно именно тебе.",
+          "categoryIds": [
+            "grunge"
+          ]
+        },
+        {
+          "id": "coquette",
+          "title": "Твой вайб — Coquette",
+          "description": "Тебя вдохновляют нежные детали: вышивка, цветы, полупрозрачные ткани и маленькие украшения. Твоя романтика может быть смелой — попробуй соединить лёгкое платье с тёмной обувью.",
+          "categoryIds": [
+            "coquette"
+          ]
+        },
+        {
+          "id": "dark-academia",
+          "title": "Твой вайб — Dark Academia",
+          "description": "Твоя эстетика — старые книги, кофе у окна и вещи, которые переживут не один сезон. Собери образ из клетки, уютного трикотажа и глубоких природных оттенков.",
+          "categoryIds": [
+            "dark-academia"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "mood",
+          "text": "Какое место сейчас ближе твоему настроению?",
+          "answers": [
+            {
+              "text": "Старый особняк в сумерках",
+              "resultId": "goth"
+            },
+            {
+              "text": "Камерный концерт в подвале",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Цветочный магазин на тихой улице",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Библиотека с высокими окнами",
+              "resultId": "dark-academia"
+            }
+          ]
+        },
+        {
+          "id": "texture",
+          "text": "Выбери фактуру, к которой хочется прикоснуться.",
+          "answers": [
+            {
+              "text": "Гладкая чёрная кожа",
+              "resultId": "goth"
+            },
+            {
+              "text": "Мягкая потёртая клетка",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Лёгкая вышитая ткань",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Плотный тёплый трикотаж",
+              "resultId": "dark-academia"
+            }
+          ]
+        },
+        {
+          "id": "accessory",
+          "text": "Какая деталь соберёт твой образ?",
+          "answers": [
+            {
+              "text": "Выразительное металлическое украшение",
+              "resultId": "goth"
+            },
+            {
+              "text": "Винтажная футболка любимой группы",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Тонкая цепочка и маленький цветок",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Кожаный ремень и старые часы",
+              "resultId": "dark-academia"
+            }
+          ]
+        },
+        {
+          "id": "evening",
+          "text": "У тебя свободный вечер. Как его проведёшь?",
+          "answers": [
+            {
+              "text": "Пересмотрю любимый мистический фильм",
+              "resultId": "goth"
+            },
+            {
+              "text": "Включу громкую музыку и встречусь с друзьями",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Устрою домашний вечер с красивой посудой",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Почитаю под шум дождя",
+              "resultId": "dark-academia"
+            }
+          ]
+        },
+        {
+          "id": "wardrobe",
+          "text": "Как ты выбираешь новую для себя вещь?",
+          "answers": [
+            {
+              "text": "Ищу выразительный тёмный силуэт",
+              "resultId": "goth"
+            },
+            {
+              "text": "Примеряю и сразу понимаю: моя",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Влюбляюсь в узор и маленькие детали",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Думаю, с чем буду носить её годами",
+              "resultId": "dark-academia"
+            }
+          ]
+        },
+        {
+          "id": "phrase",
+          "text": "Какая фраза откликается тебе сегодня?",
+          "answers": [
+            {
+              "text": "В темноте тоже есть красота",
+              "resultId": "goth"
+            },
+            {
+              "text": "Я могу быть собой без объяснений",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Нежность — моя суперсила",
+              "resultId": "coquette"
+            },
+            {
+              "text": "У каждой вещи есть история",
+              "resultId": "dark-academia"
+            }
+          ]
+        }
+      ],
+      "id": "find-your-vibe",
+      "kind": "quiz"
+    },
+    {
+      "title": "Кто ты в ночном городе?",
+      "description": "Фонари, любимый маршрут и музыка в наушниках. Собери образ для своего идеального вечера.",
+      "image": "/assets/hero.jpg",
+      "topic": "style",
+      "author": "Редакция VIBE",
+      "categoryIds": [
+        "goth",
+        "y2k",
+        "grunge"
+      ],
+      "results": [
+        {
+          "id": "goth",
+          "title": "Ночной романтик",
+          "description": "Твой город оживает после заката. Тебе близки тёмные ткани, острые линии и украшения, которые ловят свет фонарей. Выбирай выразительную вещь и строй образ вокруг неё.",
+          "categoryIds": [
+            "goth"
+          ]
+        },
+        {
+          "id": "y2k",
+          "title": "Неоновая звезда",
+          "description": "Ты замечаешь блеск даже в повседневном. Деним, маленькая сумка и заметный аксессуар превращают прогулку в собственный клип. Смешивай нулевые с современным удобством.",
+          "categoryIds": [
+            "y2k"
+          ]
+        },
+        {
+          "id": "grunge",
+          "title": "Герой андеграунда",
+          "description": "Твой маршрут ведёт на небольшой концерт и в места с историей. Свободный верх, клетка и удобная обувь поддержат твой темп. Пусть одежда живёт вместе с тобой.",
+          "categoryIds": [
+            "grunge"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "route",
+          "text": "Куда свернёшь после заката?",
+          "answers": [
+            {
+              "text": "К готическому зданию на тихой площади",
+              "resultId": "goth"
+            },
+            {
+              "text": "На улицу с яркими витринами",
+              "resultId": "y2k"
+            },
+            {
+              "text": "На небольшой концерт",
+              "resultId": "grunge"
+            }
+          ]
+        },
+        {
+          "id": "light",
+          "text": "Какой свет выберешь для фотографии?",
+          "answers": [
+            {
+              "text": "Одинокий фонарь и глубокие тени",
+              "resultId": "goth"
+            },
+            {
+              "text": "Неоновые вывески",
+              "resultId": "y2k"
+            },
+            {
+              "text": "Зернистая вспышка у кирпичной стены",
+              "resultId": "grunge"
+            }
+          ]
+        },
+        {
+          "id": "bag",
+          "text": "Что точно будет с тобой?",
+          "answers": [
+            {
+              "text": "Тёмная куртка на прохладный вечер",
+              "resultId": "goth"
+            },
+            {
+              "text": "Маленькая сумка и любимый блеск",
+              "resultId": "y2k"
+            },
+            {
+              "text": "Свободный слой, который можно накинуть",
+              "resultId": "grunge"
+            }
+          ]
+        },
+        {
+          "id": "memory",
+          "text": "Какое воспоминание хочется унести?",
+          "answers": [
+            {
+              "text": "Тайный двор и красивую тишину",
+              "resultId": "goth"
+            },
+            {
+              "text": "Смех, фотографии и спонтанный танец",
+              "resultId": "y2k"
+            },
+            {
+              "text": "Последнюю песню концерта",
+              "resultId": "grunge"
+            }
+          ]
+        }
+      ],
+      "id": "night-city",
+      "kind": "quiz"
+    },
+    {
+      "title": "Твоя нежная сторона",
+      "description": "Уют, цветы или тихая поэзия? Найди мягкую эстетику, которая отзывается именно тебе.",
+      "image": "/assets/coquette.jpg",
+      "topic": "style",
+      "author": "Редакция VIBE",
+      "categoryIds": [
+        "coquette",
+        "fairycore",
+        "dark-academia"
+      ],
+      "results": [
+        {
+          "id": "coquette",
+          "title": "Романтика в деталях",
+          "description": "Твоя мягкая сторона проявляется в маленьких ритуалах. Цветочный узор, вышивка и лёгкая цепочка помогут сохранить это настроение на весь день.",
+          "categoryIds": [
+            "coquette"
+          ]
+        },
+        {
+          "id": "fairycore",
+          "title": "Лесная мечтательница",
+          "description": "Тебе близки природные фактуры и ощущение тихого волшебства. Цветочные принты и свободные ткани легко подружатся с уже любимыми вещами.",
+          "categoryIds": [
+            "fairycore"
+          ]
+        },
+        {
+          "id": "dark-academia",
+          "title": "Тихая поэзия",
+          "description": "Твоя нежность спокойная и глубокая. Уютный кардиган, клетчатая юбка и любимая книга — достаточно, чтобы почувствовать себя на своём месте.",
+          "categoryIds": [
+            "dark-academia"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "morning",
+          "text": "Как выглядит твоё идеальное утро?",
+          "answers": [
+            {
+              "text": "Цветы на столе и красивая чашка",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Прогулка по траве, пока город спит",
+              "resultId": "fairycore"
+            },
+            {
+              "text": "Книга, кофе и мягкий кардиган",
+              "resultId": "dark-academia"
+            }
+          ]
+        },
+        {
+          "id": "detail",
+          "text": "Какую деталь заметишь первой?",
+          "answers": [
+            {
+              "text": "Аккуратную вышивку на воротнике",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Цветочный узор, похожий на живой",
+              "resultId": "fairycore"
+            },
+            {
+              "text": "Красивую фактуру старого трикотажа",
+              "resultId": "dark-academia"
+            }
+          ]
+        },
+        {
+          "id": "color",
+          "text": "Выбери свою палитру.",
+          "answers": [
+            {
+              "text": "Молочный, пудровый и тёплое золото",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Зелёный, кремовый и приглушённый розовый",
+              "resultId": "fairycore"
+            },
+            {
+              "text": "Шоколадный, серый и цвет старой бумаги",
+              "resultId": "dark-academia"
+            }
+          ]
+        },
+        {
+          "id": "treasure",
+          "text": "Что возьмёшь на память из поездки?",
+          "answers": [
+            {
+              "text": "Небольшое винтажное украшение",
+              "resultId": "coquette"
+            },
+            {
+              "text": "Засушенный цветок в блокноте",
+              "resultId": "fairycore"
+            },
+            {
+              "text": "Книгу из маленького букинистического",
+              "resultId": "dark-academia"
+            }
+          ]
+        }
+      ],
+      "id": "soft-side",
+      "kind": "quiz"
+    },
+    {
+      "title": "Одень свой плейлист",
+      "description": "Любимые треки уже знают твой стиль. Осталось перевести настроение музыки в вещи.",
+      "image": "/assets/grunge.jpg",
+      "topic": "music",
+      "author": "Редакция VIBE",
+      "categoryIds": [
+        "grunge",
+        "goth",
+        "y2k"
+      ],
+      "results": [
+        {
+          "id": "grunge",
+          "title": "Гитарный шум",
+          "description": "Ты выбираешь музыку, в которой слышно живое дыхание. Клетка, потёртые фактуры и свободные силуэты поддержат твою независимость.",
+          "categoryIds": [
+            "grunge"
+          ]
+        },
+        {
+          "id": "goth",
+          "title": "Тёмная волна",
+          "description": "Ты любишь глубокий бас и мелодии с тайной. В твоём образе органично смотрятся чёрная кожа, металл и выразительные линии.",
+          "categoryIds": [
+            "goth"
+          ]
+        },
+        {
+          "id": "y2k",
+          "title": "Поп на повторе",
+          "description": "Для тебя музыка — источник энергии. Деним, компактная сумка и яркие сочетания помогут взять это настроение с собой.",
+          "categoryIds": [
+            "y2k"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "track",
+          "text": "Что сейчас звучит в наушниках?",
+          "answers": [
+            {
+              "text": "Неровные живые гитары",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Глубокий бас и тёмная мелодия",
+              "resultId": "goth"
+            },
+            {
+              "text": "Поп-трек, которому хочется подпевать",
+              "resultId": "y2k"
+            }
+          ]
+        },
+        {
+          "id": "concert",
+          "text": "Выбери концерт мечты.",
+          "answers": [
+            {
+              "text": "Маленький клуб, где артист совсем рядом",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Тёмный зал и красивый свет",
+              "resultId": "goth"
+            },
+            {
+              "text": "Большая сцена с танцами",
+              "resultId": "y2k"
+            }
+          ]
+        },
+        {
+          "id": "cover",
+          "text": "Какой будет обложка твоего альбома?",
+          "answers": [
+            {
+              "text": "Чёрно-белая плёнка и движение",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Тени, кожа и глубокий фиолетовый",
+              "resultId": "goth"
+            },
+            {
+              "text": "Блеск, деним и неожиданный ракурс",
+              "resultId": "y2k"
+            }
+          ]
+        },
+        {
+          "id": "dance",
+          "text": "Как ты двигаешься под любимый трек?",
+          "answers": [
+            {
+              "text": "Как хочется, без правил",
+              "resultId": "grunge"
+            },
+            {
+              "text": "Медленно, полностью в настроении",
+              "resultId": "goth"
+            },
+            {
+              "text": "Не могу оставаться на месте",
+              "resultId": "y2k"
+            }
+          ]
+        }
+      ],
+      "id": "soundtrack",
+      "kind": "quiz"
+    },
+    {
+      "title": "Твой K-pop stage-вайб",
+      "description": "Выбери настроение выступления, а не «правильную» группу. Тест для вдохновения: он не связан с артистами и не использует их музыку.",
+      "image": "/assets/y2k.jpg",
+      "topic": "kpop",
+      "author": "Редакция VIBE",
+      "categoryIds": [
+        "streetwear",
+        "k-fashion",
+        "gyaru",
+        "mcbling",
+        "coquette",
+        "y2k"
+      ],
+      "results": [
+        {
+          "id": "stage-power",
+          "title": "Сильный выход",
+          "description": "Тебе близки чёткий ритм и выразительные движения. Свободный верх, удобные слои и заметная деталь поддержат этот настрой. Не нужно повторять сценический костюм целиком: возьми одну идею и сделай её своей.",
+          "categoryIds": [
+            "streetwear",
+            "k-fashion"
+          ]
+        },
+        {
+          "id": "stage-sparkle",
+          "title": "Звезда с блеском",
+          "description": "Ты любишь, когда образ заметен ещё до первого припева. Маленькая сумка, украшения и игра фактур создают настроение gyaru и McBling. Пусть главным акцентом станет одна вещь, которую хочется носить снова.",
+          "categoryIds": [
+            "gyaru",
+            "mcbling"
+          ]
+        },
+        {
+          "id": "stage-soft",
+          "title": "Мягкая харизма",
+          "description": "Тебя цепляют мелодия, детали и спокойная уверенность. Светлая рубашка, вышивка или мягкий слой добавят образу нежности без строгих правил. Носи романтичные вещи так, как удобно тебе.",
+          "categoryIds": [
+            "coquette",
+            "k-fashion"
+          ]
+        },
+        {
+          "id": "stage-retro",
+          "title": "Ретро-припев",
+          "description": "Твоё настроение — запоминающийся поп, деним и немного нулевых. Попробуй компактную сумку и простую базу с интересным силуэтом. Сценическая энергия может жить и в повседневном образе.",
+          "categoryIds": [
+            "y2k",
+            "k-fashion"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "intro",
+          "text": "Что хочется почувствовать с первых секунд выступления?",
+          "answers": [
+            {
+              "text": "Чёткий ритм и мощное движение",
+              "resultId": "stage-power"
+            },
+            {
+              "text": "Блеск, эффектный образ и улыбку",
+              "resultId": "stage-sparkle"
+            },
+            {
+              "text": "Красивую мелодию и мягкую атмосферу",
+              "resultId": "stage-soft"
+            },
+            {
+              "text": "Знакомый ретро-грув и лёгкость",
+              "resultId": "stage-retro"
+            }
+          ]
+        },
+        {
+          "id": "detail",
+          "text": "Какую деталь ты возьмёшь из сценического образа в обычный день?",
+          "answers": [
+            {
+              "text": "Свободный верх и интересный слой",
+              "resultId": "stage-power"
+            },
+            {
+              "text": "Маленькую сумку и заметное украшение",
+              "resultId": "stage-sparkle"
+            },
+            {
+              "text": "Рубашку с аккуратной вышивкой",
+              "resultId": "stage-soft"
+            },
+            {
+              "text": "Деним и один акцент из нулевых",
+              "resultId": "stage-retro"
+            }
+          ]
+        },
+        {
+          "id": "rehearsal",
+          "text": "Как выглядит твой идеальный день с любимым K-pop?",
+          "answers": [
+            {
+              "text": "Танцевальная тренировка в удобной одежде",
+              "resultId": "stage-power"
+            },
+            {
+              "text": "Собрать образ и снять короткое видео",
+              "resultId": "stage-sparkle"
+            },
+            {
+              "text": "Прогулка под мелодичный плейлист",
+              "resultId": "stage-soft"
+            },
+            {
+              "text": "Включить любимые поп-треки и встретиться с друзьями",
+              "resultId": "stage-retro"
+            }
+          ]
+        },
+        {
+          "id": "palette",
+          "text": "Какая палитра подходит твоему воображаемому камбэку?",
+          "answers": [
+            {
+              "text": "Чёрный, серый и один насыщенный акцент",
+              "resultId": "stage-power"
+            },
+            {
+              "text": "Тёплый металл, контраст и блеск",
+              "resultId": "stage-sparkle"
+            },
+            {
+              "text": "Молочный, пудровый и мягкие оттенки",
+              "resultId": "stage-soft"
+            },
+            {
+              "text": "Синий деним и неожиданный яркий цвет",
+              "resultId": "stage-retro"
+            }
+          ]
+        },
+        {
+          "id": "encore",
+          "text": "Что останется с тобой после последнего припева?",
+          "answers": [
+            {
+              "text": "Энергия и желание двигаться",
+              "resultId": "stage-power"
+            },
+            {
+              "text": "Смелость попробовать заметный образ",
+              "resultId": "stage-sparkle"
+            },
+            {
+              "text": "Хорошее настроение от красивой мелодии",
+              "resultId": "stage-soft"
+            },
+            {
+              "text": "Желание снова поставить трек на повтор",
+              "resultId": "stage-retro"
+            }
+          ]
+        }
+      ],
+      "id": "kpop-stage",
+      "kind": "quiz"
+    },
+    {
+      "title": "Твой музыкальный альтер-эго",
+      "description": "Гитары, синтезаторы, тёмный бас или свободный флоу? Собери настроение своего плейлиста и найди вещи, которые его поддержат.",
+      "image": "/assets/grunge.jpg",
+      "topic": "music",
+      "author": "Редакция VIBE",
+      "categoryIds": [
+        "emo",
+        "scene",
+        "goth",
+        "streetwear"
+      ],
+      "results": [
+        {
+          "id": "emo-heart",
+          "title": "Громкие чувства",
+          "description": "Тебе нужна музыка, в которой можно узнать собственные переживания. Клетка, тёмные акценты и любимая удобная вещь передадут настроение эмо. Чувства не обязывают тебя к определённому внешнему виду.",
+          "categoryIds": [
+            "emo"
+          ]
+        },
+        {
+          "id": "scene-spark",
+          "title": "Яркий импульс",
+          "description": "Ты выбираешь энергию, контраст и неожиданные сочетания. Возьми настроение scene через аксессуары и многослойность — даже маленькая яркая деталь может изменить весь образ.",
+          "categoryIds": [
+            "scene"
+          ]
+        },
+        {
+          "id": "dark-wave",
+          "title": "Тёмная волна",
+          "description": "Тебе близки глубокий бас, пространство и немного загадочности. Тёмный силуэт, фактура и металлическая деталь помогут передать эту атмосферу без буквального копирования чужого стиля.",
+          "categoryIds": [
+            "goth"
+          ]
+        },
+        {
+          "id": "street-flow",
+          "title": "Свободный флоу",
+          "description": "Ты ценишь ритм, движение и образ, который живёт вместе с тобой. Свободные слои и практичная сумка поддержат streetwear-настроение. Комфорт — полноценная часть твоего стиля.",
+          "categoryIds": [
+            "streetwear"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "sound",
+          "text": "Какое звучание сейчас хочется включить громче?",
+          "answers": [
+            {
+              "text": "Эмоциональные гитары и выразительный вокал",
+              "resultId": "emo-heart"
+            },
+            {
+              "text": "Энергичный электронный поп и резкие переходы",
+              "resultId": "scene-spark"
+            },
+            {
+              "text": "Глубокий бас и атмосферные мелодии",
+              "resultId": "dark-wave"
+            },
+            {
+              "text": "Ритмичный хип-хоп и свободный флоу",
+              "resultId": "street-flow"
+            }
+          ]
+        },
+        {
+          "id": "venue",
+          "text": "Какое место подходит этой музыке?",
+          "answers": [
+            {
+              "text": "Небольшой зал, где можно подпевать всем вместе",
+              "resultId": "emo-heart"
+            },
+            {
+              "text": "Яркий танцпол с друзьями",
+              "resultId": "scene-spark"
+            },
+            {
+              "text": "Камерный клуб с красивыми тенями",
+              "resultId": "dark-wave"
+            },
+            {
+              "text": "Открытая площадка, где достаточно пространства",
+              "resultId": "street-flow"
+            }
+          ]
+        },
+        {
+          "id": "cover",
+          "text": "Какой будет обложка твоего личного плейлиста?",
+          "answers": [
+            {
+              "text": "Клетка, плёнка и рукописная подпись",
+              "resultId": "emo-heart"
+            },
+            {
+              "text": "Контрастные цвета и несколько смелых деталей",
+              "resultId": "scene-spark"
+            },
+            {
+              "text": "Тёмный силуэт и один луч света",
+              "resultId": "dark-wave"
+            },
+            {
+              "text": "Город, движение и простой выразительный кадр",
+              "resultId": "street-flow"
+            }
+          ]
+        },
+        {
+          "id": "clothes",
+          "text": "В чём ты пойдёшь слушать этот плейлист?",
+          "answers": [
+            {
+              "text": "Любимая клетка и тёмная обувь",
+              "resultId": "emo-heart"
+            },
+            {
+              "text": "Многослойный образ с заметным аксессуаром",
+              "resultId": "scene-spark"
+            },
+            {
+              "text": "Фактурная тёмная вещь и украшение",
+              "resultId": "dark-wave"
+            },
+            {
+              "text": "Свободная база и удобная сумка",
+              "resultId": "street-flow"
+            }
+          ]
+        },
+        {
+          "id": "feeling",
+          "text": "За чем ты чаще всего возвращаешься к музыке?",
+          "answers": [
+            {
+              "text": "Чтобы прожить чувства и узнать в словах себя",
+              "resultId": "emo-heart"
+            },
+            {
+              "text": "Чтобы поймать импульс и зарядиться",
+              "resultId": "scene-spark"
+            },
+            {
+              "text": "Чтобы побыть в собственной атмосфере",
+              "resultId": "dark-wave"
+            },
+            {
+              "text": "Чтобы почувствовать ритм и двигаться дальше",
+              "resultId": "street-flow"
+            }
+          ]
+        }
+      ],
+      "id": "music-alter-ego",
+      "kind": "quiz"
+    },
+    {
+      "title": "Гяру, эмо, сцен или streetwear?",
+      "description": "Пять направлений, которые можно смешивать без разрешения. Выбери детали по настроению и найди отправную точку для нового образа.",
+      "image": "/assets/jacket.jpg",
+      "topic": "style",
+      "author": "Редакция VIBE",
+      "categoryIds": [
+        "gyaru",
+        "emo",
+        "scene",
+        "streetwear",
+        "sagging"
+      ],
+      "results": [
+        {
+          "id": "gyaru",
+          "title": "Твой акцент — Gyaru",
+          "description": "Тебя вдохновляют выразительность, аксессуары и собственный взгляд на красоту. Начни с заметного украшения или маленькой сумки, а дальше собирай свою версию gyaru. У этой эстетики много направлений, и повторять чужой образ целиком не обязательно.",
+          "categoryIds": [
+            "gyaru"
+          ]
+        },
+        {
+          "id": "emo",
+          "title": "Твой акцент — Emo",
+          "description": "Ты выбираешь эмоциональный образ и детали, за которыми есть личная история. Клетка и тёмная обувь могут стать отправной точкой, но важнее то, с чем тебе комфортно выражать себя.",
+          "categoryIds": [
+            "emo"
+          ]
+        },
+        {
+          "id": "scene",
+          "title": "Твой акцент — Scene",
+          "description": "Тебе нравятся контрасты и визуальная энергия. Сочетай любимую базу с небольшими смелыми акцентами, пробуй многослойность и не бойся смешивать настроение нулевых с сегодняшним гардеробом.",
+          "categoryIds": [
+            "scene"
+          ]
+        },
+        {
+          "id": "streetwear",
+          "title": "Твой акцент — Streetwear",
+          "description": "Ты любишь вещи, в которых можно двигаться и проживать день в своём темпе. Свободные силуэты, слои и практичность помогут собрать образ без ощущения костюма.",
+          "categoryIds": [
+            "streetwear"
+          ]
+        },
+        {
+          "id": "sagging",
+          "title": "Твой акцент — Baggy / Sagging",
+          "description": "Тебе близки широкие силуэты и расслабленная посадка. Sagging — приём с низкой посадкой брюк, который можно сочетать со streetwear, а не строгий набор правил. Выбирай удобную посадку и вещи, в которых безопасно и комфортно двигаться.",
+          "categoryIds": [
+            "sagging"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "first",
+          "text": "Какую деталь замечаешь первой?",
+          "answers": [
+            {
+              "text": "Украшения и выразительную сумку",
+              "resultId": "gyaru"
+            },
+            {
+              "text": "Клетку и тёмные акценты",
+              "resultId": "emo"
+            },
+            {
+              "text": "Яркий контраст и многослойность",
+              "resultId": "scene"
+            },
+            {
+              "text": "Удобный городской силуэт",
+              "resultId": "streetwear"
+            },
+            {
+              "text": "Ширину брюк и расслабленную посадку",
+              "resultId": "sagging"
+            }
+          ]
+        },
+        {
+          "id": "weekend",
+          "text": "Чем хочется заняться в свободный день?",
+          "answers": [
+            {
+              "text": "Примерить несколько заметных сочетаний",
+              "resultId": "gyaru"
+            },
+            {
+              "text": "Погулять под любимые эмоциональные треки",
+              "resultId": "emo"
+            },
+            {
+              "text": "Собрать необычный образ с друзьями",
+              "resultId": "scene"
+            },
+            {
+              "text": "Провести день в городе и много двигаться",
+              "resultId": "streetwear"
+            },
+            {
+              "text": "Найти идеально сидящие широкие брюки",
+              "resultId": "sagging"
+            }
+          ]
+        },
+        {
+          "id": "mix",
+          "text": "Что добавишь к самой простой базе?",
+          "answers": [
+            {
+              "text": "Сумку и украшение с характером",
+              "resultId": "gyaru"
+            },
+            {
+              "text": "Клетчатый слой и тёмную обувь",
+              "resultId": "emo"
+            },
+            {
+              "text": "Контрастную деталь из настроения нулевых",
+              "resultId": "scene"
+            },
+            {
+              "text": "Свободную куртку и практичную сумку",
+              "resultId": "streetwear"
+            },
+            {
+              "text": "Объёмный верх к низкой посадке",
+              "resultId": "sagging"
+            }
+          ]
+        },
+        {
+          "id": "fit",
+          "text": "Что важнее при примерке?",
+          "answers": [
+            {
+              "text": "Чтобы вещь помогала выразить настроение",
+              "resultId": "gyaru"
+            },
+            {
+              "text": "Чтобы она ощущалась личной и любимой",
+              "resultId": "emo"
+            },
+            {
+              "text": "Чтобы с ней получалось неожиданное сочетание",
+              "resultId": "scene"
+            },
+            {
+              "text": "Чтобы в ней было удобно жить весь день",
+              "resultId": "streetwear"
+            },
+            {
+              "text": "Чтобы объём и посадка работали вместе",
+              "resultId": "sagging"
+            }
+          ]
+        },
+        {
+          "id": "motto",
+          "text": "Выбери фразу для своего гардероба.",
+          "answers": [
+            {
+              "text": "Мой образ может быть заметным",
+              "resultId": "gyaru"
+            },
+            {
+              "text": "У моих вещей есть чувства и история",
+              "resultId": "emo"
+            },
+            {
+              "text": "Мне интересно смешивать и пробовать",
+              "resultId": "scene"
+            },
+            {
+              "text": "Комфорт тоже может быть выразительным",
+              "resultId": "streetwear"
+            },
+            {
+              "text": "Свобода начинается с удобной посадки",
+              "resultId": "sagging"
+            }
+          ]
+        }
+      ],
+      "id": "new-style-vibe",
+      "kind": "quiz"
+    }
+  ],
+  "collections": [
+    {
+      "title": "После полуночи",
+      "description": "Тёмные силуэты и выразительные детали для твоего ночного города.",
+      "image": "/assets/hero.jpg",
+      "categoryIds": [
+        "goth",
+        "punk"
+      ],
+      "id": "after-dark",
+      "kind": "collection"
+    },
+    {
+      "title": "Нежный бунт",
+      "description": "Цветы, мягкие ткани и романтика, у которой есть характер.",
+      "image": "/assets/coquette.jpg",
+      "categoryIds": [
+        "coquette",
+        "fairycore"
+      ],
+      "id": "soft-rebellion",
+      "kind": "collection"
+    },
+    {
+      "title": "Привет из 90-х",
+      "description": "Клетка, деним и вещи, которым не нужны правила.",
+      "image": "/assets/grunge.jpg",
+      "categoryIds": [
+        "grunge",
+        "y2k",
+        "vintage"
+      ],
+      "id": "back-to-90s",
+      "kind": "collection"
+    },
+    {
+      "title": "Гардероб из сохранёнок",
+      "description": "Нулевые, блеск и контрастные детали: собери свою версию знакомых эстетик из социальных сетей.",
+      "image": "/assets/y2k.jpg",
+      "categoryIds": [
+        "gyaru",
+        "scene",
+        "y2k",
+        "mcbling"
+      ],
+      "id": "digital-dressing-room",
+      "kind": "collection"
+    },
+    {
+      "title": "После репетиции",
+      "description": "Повседневные слои и небольшие акценты для тех дней, когда любимая музыка идёт с тобой по городу.",
+      "image": "/assets/jacket.jpg",
+      "categoryIds": [
+        "k-fashion",
+        "streetwear",
+        "acubi",
+        "y2k"
+      ],
+      "id": "kpop-offstage",
+      "kind": "collection"
+    },
+    {
+      "title": "Мягкий выходной",
+      "description": "Вышивка, цветы и уютные силуэты. Состав каждой реальной вещи смотри отдельно в её карточке.",
+      "image": "/assets/coquette.jpg",
+      "categoryIds": [
+        "cottagecore",
+        "balletcore",
+        "coquette",
+        "fairycore"
+      ],
+      "id": "soft-everyday",
+      "kind": "collection"
+    }
+  ],
+  "links": [
+    {
+      "quizId": "find-your-vibe",
+      "resultId": "goth",
+      "itemId": "leather-jacket",
+      "id": "link-vibe-goth-jacket",
+      "kind": "link"
+    },
+    {
+      "quizId": "find-your-vibe",
+      "resultId": "goth",
+      "itemId": "platform-boots",
+      "id": "link-vibe-goth-boots",
+      "kind": "link"
+    },
+    {
+      "quizId": "find-your-vibe",
+      "resultId": "grunge",
+      "itemId": "plaid-skirt",
+      "id": "link-vibe-grunge-skirt",
+      "kind": "link"
+    },
+    {
+      "quizId": "find-your-vibe",
+      "resultId": "grunge",
+      "itemId": "denim-bag",
+      "id": "link-vibe-grunge-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "find-your-vibe",
+      "resultId": "coquette",
+      "itemId": "velvet-dress",
+      "id": "link-vibe-coquette-dress",
+      "kind": "link"
+    },
+    {
+      "quizId": "find-your-vibe",
+      "resultId": "coquette",
+      "itemId": "lace-top",
+      "id": "link-vibe-coquette-top",
+      "kind": "link"
+    },
+    {
+      "quizId": "find-your-vibe",
+      "resultId": "dark-academia",
+      "itemId": "knit-cardigan",
+      "id": "link-vibe-academia-knit",
+      "kind": "link"
+    },
+    {
+      "quizId": "night-city",
+      "resultId": "goth",
+      "itemId": "platform-boots",
+      "id": "link-night-goth-boots",
+      "kind": "link"
+    },
+    {
+      "quizId": "night-city",
+      "resultId": "y2k",
+      "itemId": "denim-bag",
+      "id": "link-night-y2k-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "night-city",
+      "resultId": "grunge",
+      "itemId": "leather-jacket",
+      "id": "link-night-grunge-jacket",
+      "kind": "link"
+    },
+    {
+      "quizId": "soft-side",
+      "resultId": "coquette",
+      "itemId": "silver-necklace",
+      "id": "link-soft-coquette-chain",
+      "kind": "link"
+    },
+    {
+      "quizId": "soft-side",
+      "resultId": "fairycore",
+      "itemId": "velvet-dress",
+      "id": "link-soft-fairy-dress",
+      "kind": "link"
+    },
+    {
+      "quizId": "soft-side",
+      "resultId": "dark-academia",
+      "itemId": "plaid-skirt",
+      "id": "link-soft-academia-skirt",
+      "kind": "link"
+    },
+    {
+      "quizId": "soundtrack",
+      "resultId": "grunge",
+      "itemId": "plaid-skirt",
+      "id": "link-music-grunge-skirt",
+      "kind": "link"
+    },
+    {
+      "quizId": "soundtrack",
+      "resultId": "goth",
+      "itemId": "leather-jacket",
+      "id": "link-music-goth-jacket",
+      "kind": "link"
+    },
+    {
+      "quizId": "soundtrack",
+      "resultId": "y2k",
+      "itemId": "denim-bag",
+      "id": "link-music-y2k-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "kpop-stage",
+      "resultId": "stage-power",
+      "itemId": "leather-jacket",
+      "id": "link-stage-power-jacket",
+      "kind": "link"
+    },
+    {
+      "quizId": "kpop-stage",
+      "resultId": "stage-power",
+      "itemId": "denim-bag",
+      "id": "link-stage-power-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "kpop-stage",
+      "resultId": "stage-sparkle",
+      "itemId": "silver-necklace",
+      "id": "link-stage-sparkle-chain",
+      "kind": "link"
+    },
+    {
+      "quizId": "kpop-stage",
+      "resultId": "stage-sparkle",
+      "itemId": "denim-bag",
+      "id": "link-stage-sparkle-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "kpop-stage",
+      "resultId": "stage-soft",
+      "itemId": "lace-top",
+      "id": "link-stage-soft-top",
+      "kind": "link"
+    },
+    {
+      "quizId": "kpop-stage",
+      "resultId": "stage-soft",
+      "itemId": "velvet-dress",
+      "id": "link-stage-soft-dress",
+      "kind": "link"
+    },
+    {
+      "quizId": "kpop-stage",
+      "resultId": "stage-retro",
+      "itemId": "denim-bag",
+      "id": "link-stage-retro-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "kpop-stage",
+      "resultId": "stage-retro",
+      "itemId": "silver-necklace",
+      "id": "link-stage-retro-chain",
+      "kind": "link"
+    },
+    {
+      "quizId": "music-alter-ego",
+      "resultId": "emo-heart",
+      "itemId": "plaid-skirt",
+      "id": "link-alter-emo-skirt",
+      "kind": "link"
+    },
+    {
+      "quizId": "music-alter-ego",
+      "resultId": "emo-heart",
+      "itemId": "platform-boots",
+      "id": "link-alter-emo-boots",
+      "kind": "link"
+    },
+    {
+      "quizId": "music-alter-ego",
+      "resultId": "scene-spark",
+      "itemId": "denim-bag",
+      "id": "link-alter-scene-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "music-alter-ego",
+      "resultId": "scene-spark",
+      "itemId": "plaid-skirt",
+      "id": "link-alter-scene-skirt",
+      "kind": "link"
+    },
+    {
+      "quizId": "music-alter-ego",
+      "resultId": "dark-wave",
+      "itemId": "leather-jacket",
+      "id": "link-alter-dark-jacket",
+      "kind": "link"
+    },
+    {
+      "quizId": "music-alter-ego",
+      "resultId": "dark-wave",
+      "itemId": "platform-boots",
+      "id": "link-alter-dark-boots",
+      "kind": "link"
+    },
+    {
+      "quizId": "music-alter-ego",
+      "resultId": "street-flow",
+      "itemId": "leather-jacket",
+      "id": "link-alter-street-jacket",
+      "kind": "link"
+    },
+    {
+      "quizId": "music-alter-ego",
+      "resultId": "street-flow",
+      "itemId": "denim-bag",
+      "id": "link-alter-street-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "gyaru",
+      "itemId": "denim-bag",
+      "id": "link-style-gyaru-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "gyaru",
+      "itemId": "silver-necklace",
+      "id": "link-style-gyaru-chain",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "emo",
+      "itemId": "plaid-skirt",
+      "id": "link-style-emo-skirt",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "emo",
+      "itemId": "platform-boots",
+      "id": "link-style-emo-boots",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "scene",
+      "itemId": "denim-bag",
+      "id": "link-style-scene-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "scene",
+      "itemId": "plaid-skirt",
+      "id": "link-style-scene-skirt",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "streetwear",
+      "itemId": "leather-jacket",
+      "id": "link-style-street-jacket",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "streetwear",
+      "itemId": "denim-bag",
+      "id": "link-style-street-bag",
+      "kind": "link"
+    },
+    {
+      "quizId": "new-style-vibe",
+      "resultId": "sagging",
+      "itemId": "silver-necklace",
+      "id": "link-style-sagging-chain",
+      "kind": "link"
+    }
+  ]
+}
