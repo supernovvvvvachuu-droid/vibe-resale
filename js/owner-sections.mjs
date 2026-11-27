@@ -1,7 +1,7 @@
-import { e, money, intro, empty, breadcrumb, windowBar } from './components.mjs';
-import { validatedExternalUrl } from './link-policy.mjs';
-import { compositionText, normalizeComposition } from './materials.mjs';
-import { compositionRow } from './composition-form.mjs';
+import { e, money, intro, empty, breadcrumb, windowBar } from './components.mjs?v=20261127-2';
+import { validatedExternalUrl } from './link-policy.mjs?v=20261127-2';
+import { compositionText, normalizeComposition } from './materials.mjs?v=20261127-2';
+import { compositionRow } from './composition-form.mjs?v=20261127-2';
 
 const uuid=/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i;
 const mediaPath=/^\/api\/media\/[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i;

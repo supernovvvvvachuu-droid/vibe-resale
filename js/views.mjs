@@ -1,7 +1,7 @@
-import { e, money, icon, symbols, favoriteButton, categoryName, tags, quizCard, itemCard, itemComposition, cottonBadge, materialBadges, collectionCard, sectionHeading, empty, intro, breadcrumb, status, windowBar } from './components.mjs';
-import { filterItems, resultItems, quizTopic, safeImagePath } from './core.mjs';
-import { validatedExternalUrl } from './link-policy.mjs';
-import { compositionText, hasValidComposition, MATERIALS } from './materials.mjs';
+import { e, money, icon, symbols, favoriteButton, categoryName, tags, quizCard, itemCard, itemComposition, cottonBadge, materialBadges, collectionCard, sectionHeading, empty, intro, breadcrumb, status, windowBar } from './components.mjs?v=20261127-2';
+import { filterItems, resultItems, quizTopic, safeImagePath } from './core.mjs?v=20261127-2';
+import { validatedExternalUrl } from './link-policy.mjs?v=20261127-2';
+import { compositionText, hasValidComposition, MATERIALS } from './materials.mjs?v=20261127-2';
 export function home(s) {
   const c=s.catalog;
   const heroQuiz=c.quizzes.find(q=>q.id==='find-your-vibe')||c.quizzes[0];
