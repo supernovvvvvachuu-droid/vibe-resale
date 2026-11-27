@@ -1,5 +1,5 @@
-import { e, icon, intro, empty } from './components.mjs?v=20261127-2';
-import { compositionFields, compositionFromForm } from './composition-form.mjs?v=20261127-2';
+import { e, icon, intro, empty } from './components.mjs?v=20261127-3';
+import { compositionFields, compositionFromForm } from './composition-form.mjs?v=20261127-3';
 const imageOptions = [['goth.jpg','Тёмная кожа и неон'],['grunge.jpg','Клетка и чёрно-белый образ'],['coquette.jpg','Цветочный образ'],['academia.jpg','Уютный кардиган'],['y2k.jpg','Кожаная куртка'],['boots.jpg','Чёрные ботильоны'],['bag.jpg','Джинсовая сумка'],['necklace.jpg','Тонкая цепочка'],['lace.jpg','Светлые ткани'],['vintage.jpg','Винтажный гардероб']];
 export const imageSelect = () => `<label class="field"><span>Обложка</span><select name="image">${imageOptions.map(([file,title])=>`<option value="./assets/${file}">${title}</option>`).join('')}</select><small>В MVP доступны только эти иллюстрации. Точные фотографии вещи смотри на торговой площадке.</small></label>`;
 const field = (label,name,placeholder='',max=100) => `<label class="field"><span>${label}</span><input name="${name}" placeholder="${placeholder}" maxlength="${max}" required></label>`;

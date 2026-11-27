@@ -1,4 +1,4 @@
-import {validatedExternalUrl} from './link-policy.mjs?v=20261127-2';
+import {validatedExternalUrl} from './link-policy.mjs?v=20261127-3';
 
 // Match the whole attachment address, never a safe-looking prefix of another URL.
 export const photoPattern=/^https:\/\/github\.com\/user-attachments\/assets\/[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i;
