@@ -1,4 +1,4 @@
-import {sellerItems} from './listings.mjs?v=20261127-3';
+import {sellerItems} from './listings.mjs?v=20261127-4';
 export function setCSRF(){}
 export async function api(path){
   if(path==='/session')return {accessMode:'browse-only'};

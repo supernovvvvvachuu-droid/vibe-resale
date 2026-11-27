@@ -1,5 +1,5 @@
-import { escapeHTML as e } from './core.mjs?v=20261127-3';
-import { MATERIALS, normalizeComposition } from './materials.mjs?v=20261127-3';
+import { escapeHTML as e } from './core.mjs?v=20261127-4';
+import { MATERIALS, normalizeComposition } from './materials.mjs?v=20261127-4';
 
 export function compositionRow(index,part={}) {
   const other=part.material==='other';

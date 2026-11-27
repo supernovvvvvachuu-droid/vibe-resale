@@ -1,6 +1,6 @@
 # Вайб Ресейл
 
-**[Открыть сайт и каталог](https://supernovvvvvachuu-droid.github.io/vibe-resale/?v=20261127-3#/catalog)**
+**[Открыть сайт и каталог](https://supernovvvvvachuu-droid.github.io/vibe-resale/?v=20261127-4#/catalog)**
 
 Тесты и вещи по эстетикам. Публикация объявлений через GitHub Issues.
 
@@ -15,3 +15,5 @@ npm test
 ```
 
 Отчёт о проверке безопасности: [docs/SECURITY-AUDIT.md](docs/SECURITY-AUDIT.md). Все данные для тестов объявлений локальные; тестовые Issues не публикуются.
+
+Объявления из GitHub Issues появляются только после ручной проверки и метки `approved`. Изменение текста требует повторной проверки. Порядок работы владельца: [docs/MODERATION.md](docs/MODERATION.md).

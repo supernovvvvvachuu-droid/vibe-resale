@@ -1,4 +1,5 @@
-import {validatedExternalUrl} from './link-policy.mjs?v=20261127-3';
+import {validatedExternalUrl} from './link-policy.mjs?v=20261127-4';
+import {hasCurrentApproval} from './approval.mjs?v=20261127-4';
 
 // Match the whole attachment address, never a safe-looking prefix of another URL.
 export const photoPattern=/^https:\/\/github\.com\/user-attachments\/assets\/[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i;
@@ -9,9 +10,10 @@ function photoAddress(value) {
   for(const match of value.matchAll(/https:\/\/[^\s<>"')\]]+/ig))if(photoPattern.test(match[0]))return match[0];
   return null;
 }
-export function readListing(issue,categories=[]) {
+export async function readListing(issue,categories=[],repository=repoPath()) {
   if(!issue||typeof issue!=='object'||Array.isArray(issue)||issue.pull_request||issue.state!=='open'||typeof issue.title!=='string'||!issue.title.startsWith('Продам: ')||typeof issue.body!=='string'||!Number.isSafeInteger(issue.number)||issue.number<1)return null;
   if(issue.title.length>300||issue.body.length>65536)return null;
+  if(!await hasCurrentApproval(issue,repository))return null;
   const body=issue.body.replaceAll('\r',''),fields=Object.create(null);
   for(const match of body.matchAll(/^### (.+)\n+([\s\S]*?)(?=^### |(?![\s\S]))/gm)) {
     const name=match[1].trim();
@@ -40,7 +42,7 @@ export function saleLink(){
   return 'https://github.com/'+repoPath()+'/issues/new?'+params;
 }
 export async function sellerItems(categories){
-  const items=[],seen=new Set(),deadline=Date.now()+TOTAL_TIMEOUT;
+  const items=[],seen=new Set(),deadline=Date.now()+TOTAL_TIMEOUT,repository=repoPath();
   const partial=message=>{items.warning=message;return items;};
   for(let page=1;page<=MAX_PAGES;page++) {
     const remaining=deadline-Date.now();
@@ -50,7 +52,7 @@ export async function sellerItems(categories){
     try {
       const issues=await Promise.race([
         (async()=>{
-          const response=await fetch('https://api.github.com/repos/'+repoPath()+'/issues?state=open&per_page='+PAGE_SIZE+'&page='+page,{signal:controller.signal,credentials:'omit',redirect:'error',referrerPolicy:'no-referrer',headers:{Accept:'application/vnd.github+json'}});
+          const response=await fetch('https://api.github.com/repos/'+repository+'/issues?state=open&labels=approved&per_page='+PAGE_SIZE+'&page='+page,{signal:controller.signal,cache:'no-store',credentials:'omit',redirect:'error',referrerPolicy:'no-referrer',headers:{Accept:'application/vnd.github+json'}});
           if(!response.ok)throw Error(FAILURE);
           const data=await response.json();
           if(!Array.isArray(data)||data.length>PAGE_SIZE)throw Error(FAILURE);
@@ -59,8 +61,9 @@ export async function sellerItems(categories){
         new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error(FAILURE));},Math.min(PAGE_TIMEOUT,remaining));})
       ]);
       for(const issue of issues) {
+        if(Date.now()>=deadline)return partial('Не все объявления успели загрузиться. Обнови страницу позже.');
         // A malformed listing cannot discard otherwise valid listings.
-        let item;try{item=readListing(issue,categories);}catch{continue;}
+        let item;try{item=await readListing(issue,categories,repository);}catch{continue;}
         if(item&&!seen.has(item.id)){seen.add(item.id);items.push(item);}
       }
       if(issues.length<PAGE_SIZE)return items;

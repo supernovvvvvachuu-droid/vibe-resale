@@ -1,0 +1,32 @@
+name: Moderate seller listings
+
+on:
+  issues:
+    types: [opened, edited, reopened, closed, labeled, unlabeled]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: moderate-listing-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  moderation:
+    if: >-
+      github.event.action != 'labeled' && github.event.action != 'unlabeled' ||
+      github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Read trusted moderation code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Check the moderator and the exact issue version
+        run: node scripts/moderate-issues.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

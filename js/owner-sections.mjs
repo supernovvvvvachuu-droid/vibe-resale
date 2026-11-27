@@ -1,7 +1,7 @@
-import { e, money, intro, empty, breadcrumb, windowBar } from './components.mjs?v=20261127-3';
-import { validatedExternalUrl } from './link-policy.mjs?v=20261127-3';
-import { compositionText, normalizeComposition } from './materials.mjs?v=20261127-3';
-import { compositionRow } from './composition-form.mjs?v=20261127-3';
+import { e, money, intro, empty, breadcrumb, windowBar } from './components.mjs?v=20261127-4';
+import { validatedExternalUrl } from './link-policy.mjs?v=20261127-4';
+import { compositionText, normalizeComposition } from './materials.mjs?v=20261127-4';
+import { compositionRow } from './composition-form.mjs?v=20261127-4';
 
 const uuid=/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i;
 const mediaPath=/^\/api\/media\/[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i;

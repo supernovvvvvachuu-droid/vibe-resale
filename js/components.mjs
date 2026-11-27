@@ -1,5 +1,5 @@
-import { escapeHTML as e, money, quizTopic, safeImagePath, safeInternalHref } from './core.mjs?v=20261127-3';
-import { compositionText, hasValidComposition, cottonPercent, materialPercent } from './materials.mjs?v=20261127-3';
+import { escapeHTML as e, money, quizTopic, safeImagePath, safeInternalHref } from './core.mjs?v=20261127-4';
+import { compositionText, hasValidComposition, cottonPercent, materialPercent } from './materials.mjs?v=20261127-4';
 export { e, money };
 export const icons = {
   heart:'<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>',

@@ -1,6 +1,6 @@
 // One policy for submission validation and rendering existing/legacy records.
 // This validates a URL locally; it deliberately never follows or fetches it.
-const HOSTS=new Set(['avito.ru','www.avito.ru','meshok.net','www.meshok.net','etsy.com','www.etsy.com','depop.com','www.depop.com','vinted.com','www.vinted.com','t.me']);
+const HOSTS=new Set(['avito.ru','www.avito.ru','t.me']);
 const TELEGRAM_RESERVED=new Set(['login','auth','oauth','proxy','socks','iv','share','addstickers','addemoji','addtheme','setlanguage','addlist','joinchat','c','s','boost','passport','confirmphone','invoice','giftcode','nft','nftrecord','contact','settings','resolve','msg','web','loginwidget']);
 const REDIRECT_ROUTES=new Set(['redirect','redirects','redir','away','out','external','go','goto','link','links','url','click','track','tracking','login','auth','oauth','authorize','callback','logout','signout','signin','sso']);
 const UNSAFE_CHARACTERS=/[\p{Cc}\p{Cf}\p{White_Space}\\]/u;

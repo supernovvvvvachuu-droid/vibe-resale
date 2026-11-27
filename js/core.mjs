@@ -1,4 +1,4 @@
-import { cottonPercent, materialPercent, MATERIALS } from './materials.mjs?v=20261127-3';
+import { cottonPercent, materialPercent, MATERIALS } from './materials.mjs?v=20261127-4';
 export const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const money = value => Number.isFinite(value)&&value>0?new Intl.NumberFormat('ru-RU', { style: 'currency', currency: 'RUB', maximumFractionDigits: 0 }).format(value):'Цена уточняется';
 // Only reviewed, bundled raster photographs can become content image URLs.
