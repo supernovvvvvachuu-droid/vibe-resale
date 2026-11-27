@@ -37,3 +37,5 @@
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 .item-photo-gallery{display:flex;gap:10px;overflow-x:auto;padding:14px 2px 4px}.item-photo-gallery a{flex:0 0 88px;border-radius:18px;overflow:hidden;border:1px solid var(--line)}.item-photo-gallery img{display:block;width:88px;height:110px;object-fit:cover}
+
+.item-photo-column{min-width:0}.item-photo-gallery{max-width:100%}
