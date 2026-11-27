@@ -1,13 +1,13 @@
-import {saleLink} from './listings.mjs?v=20261127-3';
-import { api, setCSRF } from './api.mjs?v=20261127-3';
-import { scoreQuiz, readGuestFavorites, safeImagePath } from './core.mjs?v=20261127-3';
-import { e, icon, header, footer, empty, intro } from './components.mjs?v=20261127-3';
-import * as views from './views.mjs?v=20261127-3';
-import * as owner from './owner-sections.mjs?v=20261127-3';
-import { uploadOwnerImages } from './owner-upload.mjs?v=20261127-3';
-import { creator, handleBuilder, readSubmission } from './creator.mjs?v=20261127-3';
-import { handleCompositionBuilder, updateCompositionForm } from './composition-form.mjs?v=20261127-3';
-import { initTurnstile, mountTurnstile, turnstileToken, resetTurnstile, clearTurnstile, clearAllTurnstile } from './turnstile.mjs?v=20261127-3';
+import {saleLink} from './listings.mjs?v=20261127-4';
+import { api, setCSRF } from './api.mjs?v=20261127-4';
+import { scoreQuiz, readGuestFavorites, safeImagePath } from './core.mjs?v=20261127-4';
+import { e, icon, header, footer, empty, intro } from './components.mjs?v=20261127-4';
+import * as views from './views.mjs?v=20261127-4';
+import * as owner from './owner-sections.mjs?v=20261127-4';
+import { uploadOwnerImages } from './owner-upload.mjs?v=20261127-4';
+import { creator, handleBuilder, readSubmission } from './creator.mjs?v=20261127-4';
+import { handleCompositionBuilder, updateCompositionForm } from './composition-form.mjs?v=20261127-4';
+import { initTurnstile, mountTurnstile, turnstileToken, resetTurnstile, clearTurnstile, clearAllTurnstile } from './turnstile.mjs?v=20261127-4';
 
 const emptyCatalog=()=>({categories:[],quizzes:[],items:[],links:[],collections:[]});
 const state={catalog:emptyCatalog(),user:null,authProvider:null,accessMode:null,cmsAvailable:false,ownerSignIn:false,favorites:[],mine:[],queue:[],users:[],adminContent:[],attempt:null};
@@ -49,7 +49,7 @@ async function render({scroll=true}={}){
   document.querySelector('#header').innerHTML=header(state,path);
   document.querySelector('#footer').innerHTML=footer(state);
   try{
-    if(path==='/sell')html=intro('Для продавцов','Выставить вещь','Укажи цену, добавь фото и оставь ссылку на Авито или Telegram. Покупатель увидит вещь в каталоге и свяжется с тобой напрямую.')+`<div class="form-card"><h2>Публикация через GitHub</h2><p>Войди в GitHub, замени название после «Продам: », заполни поля и перетащи фото под заголовок «Фото». Сохрани заголовки полей. Нажми Create, затем обнови каталог. Первое фото станет обложкой.</p><p>Чтобы снять вещь с продажи, закрой своё объявление кнопкой Close issue.</p><a class="button primary" href="${e(saleLink())}">Добавить объявление на GitHub ↗</a></div>`;
+    if(path==='/sell')html=intro('Для продавцов','Выставить вещь','Укажи цену, добавь фото и оставь ссылку на Авито или Telegram. После ручной проверки покупатель увидит вещь в каталоге и свяжется с тобой напрямую.')+`<div class="form-card"><h2>Публикация через GitHub</h2><p>Войди в GitHub, замени название после «Продам: », заполни поля и перетащи фото под заголовок «Фото». Сохрани заголовки полей. Нажми Create и дождись ручной проверки администратором. После одобрения объявление появится в каталоге. Первое фото станет обложкой.</p><p>Изменение названия, текста или ссылки отправляет объявление на повторную проверку. Чтобы снять вещь с продажи, закрой своё объявление кнопкой Close issue.</p><a class="button primary" href="${e(saleLink())}">Добавить объявление на GitHub ↗</a></div>`;
     else if(browseOnly()&&['/create','/account','/admin'].includes(path))html=browseNotice();
     else if(inviteOnly()&&!state.user)html=authGate();
     else if(path==='/')html=views.home(state);
