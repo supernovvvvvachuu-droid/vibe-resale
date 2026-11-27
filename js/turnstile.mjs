@@ -1,4 +1,4 @@
-import { api } from './api.mjs';
+import { api } from './api.mjs?v=20261127-2';
 
 const SCRIPT='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
 const actions=new Set(['login','register','submit']);
