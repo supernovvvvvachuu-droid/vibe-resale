@@ -1,13 +1,13 @@
-import {saleLink} from './listings.mjs?v=20261127-2';
-import { api, setCSRF } from './api.mjs?v=20261127-2';
-import { scoreQuiz, readGuestFavorites, safeImagePath } from './core.mjs?v=20261127-2';
-import { e, icon, header, footer, empty, intro } from './components.mjs?v=20261127-2';
-import * as views from './views.mjs?v=20261127-2';
-import * as owner from './owner-sections.mjs?v=20261127-2';
-import { uploadOwnerImages } from './owner-upload.mjs?v=20261127-2';
-import { creator, handleBuilder, readSubmission } from './creator.mjs?v=20261127-2';
-import { handleCompositionBuilder, updateCompositionForm } from './composition-form.mjs?v=20261127-2';
-import { initTurnstile, mountTurnstile, turnstileToken, resetTurnstile, clearTurnstile, clearAllTurnstile } from './turnstile.mjs?v=20261127-2';
+import {saleLink} from './listings.mjs?v=20261127-3';
+import { api, setCSRF } from './api.mjs?v=20261127-3';
+import { scoreQuiz, readGuestFavorites, safeImagePath } from './core.mjs?v=20261127-3';
+import { e, icon, header, footer, empty, intro } from './components.mjs?v=20261127-3';
+import * as views from './views.mjs?v=20261127-3';
+import * as owner from './owner-sections.mjs?v=20261127-3';
+import { uploadOwnerImages } from './owner-upload.mjs?v=20261127-3';
+import { creator, handleBuilder, readSubmission } from './creator.mjs?v=20261127-3';
+import { handleCompositionBuilder, updateCompositionForm } from './composition-form.mjs?v=20261127-3';
+import { initTurnstile, mountTurnstile, turnstileToken, resetTurnstile, clearTurnstile, clearAllTurnstile } from './turnstile.mjs?v=20261127-3';
 
 const emptyCatalog=()=>({categories:[],quizzes:[],items:[],links:[],collections:[]});
 const state={catalog:emptyCatalog(),user:null,authProvider:null,accessMode:null,cmsAvailable:false,ownerSignIn:false,favorites:[],mine:[],queue:[],users:[],adminContent:[],attempt:null};

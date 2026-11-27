@@ -1,6 +1,6 @@
 # Вайб Ресейл
 
-**[Открыть сайт и каталог](https://supernovvvvvachuu-droid.github.io/vibe-resale/?v=20261127-2#/catalog)**
+**[Открыть сайт и каталог](https://supernovvvvvachuu-droid.github.io/vibe-resale/?v=20261127-3#/catalog)**
 
 Тесты и вещи по эстетикам. Публикация объявлений через GitHub Issues.
 

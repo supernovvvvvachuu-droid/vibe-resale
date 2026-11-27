@@ -3,19 +3,73 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#151221">
+    <meta name="theme-color" content="#ded9dc">
     <meta name="description" content="Вайб Ресейл — найди свою эстетику в тестах и собери образ из винтажных вещей. Goth, grunge, coquette, dark academia и другие вайбы.">
     <title>Вайб Ресейл — найди своё</title>
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="./styles.css?v=20261127-2">
-    <script type="module" src="./js/app.js?v=20261127-2"></script>
+    <link rel="stylesheet" href="./styles.css?v=20261127-3">
+    <link rel="stylesheet" href="./retro.css?v=20261127-3">
+    <script type="module" src="./js/app.js?v=20261127-3"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Перейти к содержимому</a>
-    <div class="top-note"><span class="top-note-code">VIBE RESALE / EST. NOW</span><span class="top-note-message">Вещи с историей. Эстетика без правил.</span><span class="top-note-star" aria-hidden="true">✦</span></div>
-    <header class="header" id="header"></header>
-    <main id="main" tabindex="-1"><div class="loading"><span class="spark">✦</span><p>Собираем твой вайб…</p></div></main>
-    <footer id="footer"></footer>
+    <div class="site-desktop">
+      <div class="desktop-titlebar">
+        <span class="desktop-title"><span aria-hidden="true">✧</span> vibe resale — вещи с историей</span>
+        <span class="desktop-controls" aria-hidden="true"><i>−</i><i>□</i><i>×</i></span>
+      </div>
+      <header class="header" id="header"></header>
+      <div class="desktop-grid">
+        <aside class="desktop-sidebar" aria-label="Быстрая навигация">
+          <section class="sidebar-window">
+            <h2 class="sidebar-heading">✧ explore ✧</h2>
+            <nav class="sidebar-links" aria-label="Разделы сайта">
+              <a href="#/">Главная</a>
+              <a href="#/catalog">Каталог вещей</a>
+              <a href="#/quizzes">Тесты по вайбам</a>
+              <a href="#/collections">Коллекции</a>
+              <a href="#/favorites">Избранное ♡</a>
+            </nav>
+          </section>
+          <section class="sidebar-window">
+            <h2 class="sidebar-heading">choose a mood</h2>
+            <nav class="sidebar-links sidebar-moods" aria-label="Популярные вайбы">
+              <a href="#/catalog?category=grunge">✳ grunge</a>
+              <a href="#/catalog?category=emo">♡ emo</a>
+              <a href="#/catalog?category=gyaru">✧ gyaru</a>
+              <a href="#/catalog?category=coquette">୨୧ coquette</a>
+              <a href="#/catalog?category=y2k">☆ y2k</a>
+              <a href="#/vibes">Все вайбы</a>
+            </nav>
+          </section>
+          <div class="sidebar-seal" aria-hidden="true"><span>♡</span><em>old clothes.<br>new memories.</em></div>
+          <a class="sidebar-stamp" href="#/sell"><strong>Вещь ищет дом?</strong><span>Добавить объявление</span></a>
+          <p class="sidebar-footnote">Тесты без регистрации.<br>Покупки — на площадке продавца.</p>
+        </aside>
+        <main id="main" tabindex="-1"><div class="loading"><span class="spark">✦</span><p>Собираем твой вайб…</p></div></main>
+        <aside class="desktop-aside" aria-label="Заметки и находки">
+          <section class="sidebar-window aside-note">
+            <h2 class="sidebar-heading">dear visitor,</h2>
+            <p class="sidebar-copy">Здесь любят странные сочетания, старые вещи и право быть собой.</p>
+            <span class="note-signature">оставайся ♡</span>
+          </section>
+          <section class="sidebar-window aside-find">
+            <h2 class="sidebar-heading">из гардероба</h2>
+            <a class="aside-polaroid" href="#/item/owner-black-cardigan">
+              <img src="./images/products/black-cardigan/01.webp" alt="Чёрный кардиган в рубчик" width="240" height="300" loading="lazy">
+              <span>Чёрный кардиган<br><em>маленькая находка ♡</em></span>
+            </a>
+          </section>
+          <section class="sidebar-window aside-quiz">
+            <h2 class="sidebar-heading">vibe check</h2>
+            <p class="sidebar-copy">А какое настроение у тебя сегодня?</p>
+            <a class="sidebar-cta" href="#/quizzes">Найти свой тест</a>
+          </section>
+          <div class="sidebar-badges" aria-label="О проекте"><span>second hand<br><b>first choice</b></span><span>♡<br>no dress code</span></div>
+        </aside>
+      </div>
+      <footer id="footer"></footer>
+    </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
     <dialog id="auth-dialog" class="dialog" aria-labelledby="auth-title"><div id="auth-content"></div></dialog>
     <noscript><div class="notice">Для прохождения тестов и работы каталога включите JavaScript в браузере.</div></noscript>

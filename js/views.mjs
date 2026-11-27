@@ -1,43 +1,39 @@
-import { e, money, icon, symbols, favoriteButton, categoryName, tags, quizCard, itemCard, itemComposition, cottonBadge, materialBadges, collectionCard, sectionHeading, empty, intro, breadcrumb, status, windowBar } from './components.mjs?v=20261127-2';
-import { filterItems, resultItems, quizTopic, safeImagePath } from './core.mjs?v=20261127-2';
-import { validatedExternalUrl } from './link-policy.mjs?v=20261127-2';
-import { compositionText, hasValidComposition, MATERIALS } from './materials.mjs?v=20261127-2';
+import { e, money, icon, symbols, favoriteButton, categoryName, tags, quizCard, itemCard, itemComposition, cottonBadge, materialBadges, collectionCard, sectionHeading, empty, intro, breadcrumb, status, windowBar } from './components.mjs?v=20261127-3';
+import { filterItems, resultItems, quizTopic, safeImagePath } from './core.mjs?v=20261127-3';
+import { validatedExternalUrl } from './link-policy.mjs?v=20261127-3';
+import { compositionText, hasValidComposition, MATERIALS } from './materials.mjs?v=20261127-3';
 export function home(s) {
-  const c=s.catalog;
+  const c=s.catalog,wardrobe=c.items.filter(item=>item.ownerItem===true);
   const heroQuiz=c.quizzes.find(q=>q.id==='find-your-vibe')||c.quizzes[0];
   const heroHref=heroQuiz?'#/quiz/'+encodeURIComponent(heroQuiz.id):'#/quizzes';
-  const homeVibes=['gyaru','emo','scene','streetwear','goth','coquette','y2k'].map(id=>c.categories.find(category=>category.id===id)).filter(Boolean);
-  return `<section class="hero" aria-label="Найди свою эстетику">
-    ${windowBar('vibe_finder.exe','a new era of second hand','hero-windowbar')}
-    <div class="hero-layout">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="signal-dot" aria-hidden="true"></span> self-expression club</div>
-        <h1>Новый вайб.<br><span class="chrome-text">Твоя эра.</span></h1>
-        <p>Пройди тест, поймай свою эстетику<br class="desktop-break"> и собери образ из вещей с историей.<br>Никаких правил. Только твоё настроение.</p>
-        <div class="hero-actions"><a class="button primary" href="${heroHref}">Найти свой вайб <span class="button-orbit">${icon('diagonal')}</span></a><a class="button secondary" href="#/catalog">Открыть каталог ${icon('arrow')}</a></div>
-        <div class="hero-footnote"><span>${icon('shield')} ${s.accessMode==='invite-only'?'Закрытое сообщество':'Тесты без регистрации'}</span><span class="hero-meta-divider" aria-hidden="true">/</span><span>Вещам — новую историю</span></div>
-        <div class="hero-signature" aria-hidden="true"><span>less ordinary.</span><i></i><span>more you.</span></div>
+  const first=wardrobe.find(item=>item.id==='owner-brown-bomber')||wardrobe[0];
+  const second=wardrobe.find(item=>item.id==='owner-black-pleated-skirt')||wardrobe[1];
+  const homeVibes=['grunge','emo','gyaru','coquette','goth','y2k'].map(id=>c.categories.find(category=>category.id===id)).filter(Boolean);
+  return `<section class="scrapbook-hero" aria-label="Добро пожаловать в Вайб Ресейл">
+    ${windowBar('welcome to my little wardrobe','vibe_resale.html')}
+    <div class="scrapbook-cover">
+      <div class="scrapbook-copy">
+        <p class="eyebrow">♡ wear a little feeling</p>
+        <h1>Вещи с прошлым.<br><span>Вайб — твой.</span></h1>
+        <p>Грандж, кружево и находки из нулевых. Пройди тест по настроению или загляни в мой гардероб.</p>
+        <div class="scrapbook-actions"><a class="button primary" href="${heroHref}">Найти свой вайб</a><a class="button secondary" href="#/catalog">В гардероб</a></div>
+        <div class="scrapbook-signature">pre-loved, always loved ♡</div>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="hero-coordinate">MOODBOARD_01 / VIBE RESALE</div>
-        <div class="hero-orbit"></div>
-        <div class="hero-disc"><span>VIBE / VOL. 01</span><i></i></div>
-        <div class="look-window look-primary"><div class="look-titlebar"><span>look_001.jpg</span><span>− &nbsp; □ &nbsp; ×</span></div><div class="look-image"><img src="./assets/hero.jpg" alt="" fetchpriority="high" width="500" height="700"></div><div class="look-caption"><span>wear your mood</span><span>★</span></div></div>
-        <div class="look-window look-secondary"><div class="look-titlebar"><span>alt_diary.jpg</span><span>×</span></div><div class="look-image"><img src="./assets/grunge.jpg" alt="" width="280" height="350"></div><div class="look-caption">a little chaos, a lot of you</div></div>
-        <img class="hero-chrome-star" src="./assets/chrome-star.svg" alt="" width="210" height="210">
-        <div class="mood-sticker"><span>100%</span><strong>your vibe</strong></div>
-        <span class="collage-note">emo / scene / gyaru</span>
-        <svg class="pixel-cursor" viewBox="0 0 36 44" fill="none"><path d="M3 2v31l8-7 7 15 7-3-7-15 13-1L3 2Z" fill="#e6edff" stroke="#29203c" stroke-width="2" stroke-linejoin="round"/></svg>
+      <div class="scrapbook-photos">
+        <span class="scrapbook-corner" aria-hidden="true">✧</span>
+        ${first?`<figure class="scrapbook-photo scrapbook-photo-first"><img src="${e(safeImagePath(first.image))}" alt="${e(first.title)}" width="240" height="320" fetchpriority="high"><figcaption>из моего гардероба</figcaption></figure>`:''}
+        ${second?`<figure class="scrapbook-photo scrapbook-photo-second"><img src="${e(safeImagePath(second.image))}" alt="${e(second.title)}" width="220" height="280"><figcaption>a little grunge ♡</figcaption></figure>`:''}
+        <img class="scrapbook-heart" src="./assets/retro-heart.svg" alt="" width="100" height="100">
       </div>
     </div>
-    <div class="hero-statusbar" aria-hidden="true"><span>✦ FIND YOURSELF. REMIX EVERYTHING.</span><span>PRE-LOVED / NEW ENERGY ↗</span></div>
+    <div class="scrapbook-status"><span>${wardrobe.length} вещей в моём гардеробе</span><span>тесты без регистрации ♡</span><span>made with feeling</span></div>
   </section>
-  <nav class="vibe-strip" aria-label="Категории одежды"><span class="strip-label"><span aria-hidden="true">✧</span> Твой вайб</span>${homeVibes.map(v=>`<a class="pill" href="#/catalog?category=${encodeURIComponent(v.id)}"><span class="vibe-symbol" aria-hidden="true">${symbols[v.id]||'✦'}</span>${e(v.name)}</a>`).join('')}<a class="all-vibes" href="#/vibes">Все эстетики ${icon('diagonal')}</a></nav>
-  <section class="home-section">${sectionHeading('Узнай свою сторону','Стиль, музыка, K-pop. Несколько вопросов — и новое настроение.','#/quizzes','Все тесты')}<div class="card-grid">${c.quizzes.slice(0,4).map(q=>quizCard(s,q)).join('')}</div></section>
-  <section class="section home-section">${sectionHeading('Вещи из сохранёнок','Винтаж, любимые материалы и находки с собственным характером.','#/catalog','Весь каталог')}<div class="card-grid">${c.items.slice(0,4).map(item=>itemCard(s,item)).join('')}</div></section>
-  <section class="section home-section">${sectionHeading('Собрано по настроению','Один вайб. Много способов быть собой.','#/collections','Все коллекции')}<div class="collection-grid">${c.collections.map(collectionCard).join('')}</div></section>
-  ${s.accessMode==='browse-only'?`<section class="community-banner">${windowBar('your_vibe.exe','no account needed','community-windowbar')}<div class="community-content"><span class="banner-icon" aria-hidden="true">✳</span><div><p class="eyebrow">just you and your mood</p><h2>Без аккаунта.<br>В своём настроении.</h2><p>Ответы на тесты остаются в этой вкладке, избранное — в твоём браузере. Имя, почта и пароль не нужны.</p></div><a class="button primary" href="#/quizzes">Выбрать тест ${icon('diagonal')}</a></div></section>`:`<section class="community-banner">${windowBar('create_your_own.exe','your ideas belong here','community-windowbar')}<div class="community-content"><span class="banner-icon" aria-hidden="true">✳</span><div><p class="eyebrow">let your taste take up space</p><h2>У каждого вайба есть автор.<br>Стань им.</h2><p>Собери свой тест или поделись вещью с историей. Каждая публикация проходит ручную проверку.</p></div><a class="button primary" href="#/create">Создать своё ${icon('diagonal')}</a></div></section>`}
-  <p class="demo-footnote">✧ Первая версия проекта. Демо-вещи отмечены в каталоге и недоступны для покупки.</p>`;
+  <div class="scrapbook-welcome"><span aria-hidden="true">୨୧</span><p><strong>Привет, ты дома.</strong> Это маленький уголок для вещей с историей, любимой музыки и поисков себя. Здесь можно смешивать стили и быть немного странной — или странным. Просто собой.</p></div>
+  <nav class="vibe-strip" aria-label="Выбрать настроение"><span class="vibe-strip-label">choose your mood:</span>${homeVibes.map(category=>`<a class="pill" href="#/catalog?category=${encodeURIComponent(category.id)}">${e(category.name)}</a>`).join('')}<a class="pill" href="#/vibes">Все вайбы</a></nav>
+  <section class="section home-section">${sectionHeading('Из моего гардероба','Настоящие вещи, фотографии и маленькие детали.','#/catalog','Все вещи')}<div class="card-grid">${(wardrobe.length?wardrobe:c.items).slice(0,3).map(item=>itemCard(s,item)).join('')}</div></section>
+  <section class="section home-section">${sectionHeading('О чём твой вайб?','Стиль, любимая музыка и немного самопознания.','#/quizzes','Все тесты')}<div class="card-grid">${c.quizzes.slice(0,3).map(quiz=>quizCard(s,quiz)).join('')}</div></section>
+  <section class="section home-section">${sectionHeading('Папки с настроением','Сохрани то, что откликается.','#/collections','Все коллекции')}<div class="collection-grid">${c.collections.map(collectionCard).join('')}</div></section>
+  <div class="scrapbook-welcome"><span aria-hidden="true">♡</span><p>Тесты можно проходить без регистрации, а избранное остаётся в твоём браузере. Покупка — только по ссылке продавца. Береги себя и проверяй детали перед заказом.</p></div>`;
 }
 
 export function quizzes(s,params){const search=params.get('search')||'',category=params.get('category')||'',topic=params.get('topic')||'';const list=s.catalog.quizzes.filter(q=>(!search||`${q.title} ${q.description}`.toLowerCase().includes(search.toLowerCase()))&&(!category||q.categoryIds.includes(category))&&(!topic||(topic==='music'?['music','kpop'].includes(quizTopic(q)):quizTopic(q)===topic)));return `${intro('Открой новую сторону себя','Какой ты сегодня вайб?','Выбирай тест по настроению. Отвечай как чувствуешь — правильных ответов здесь нет.')}<form class="toolbar" id="quiz-filters"><div class="search-box">${icon('search')}<input type="search" name="search" value="${e(search)}" placeholder="Найти тест…" aria-label="Поиск тестов"></div><select name="category" aria-label="Вайб теста"><option value="">Все вайбы</option>${s.catalog.categories.map(c=>`<option value="${e(c.id)}"${category===c.id?' selected':''}>${e(c.name)}</option>`).join('')}</select><select name="topic" aria-label="Тема теста"><option value="">Все тесты</option><option value="style"${topic==='style'?' selected':''}>Про стиль</option><option value="music"${topic==='music'?' selected':''}>Про музыку</option><option value="kpop"${topic==='kpop'?' selected':''}>K-pop</option></select><button class="button primary small" type="submit">Найти</button></form><p class="results-count">Тестов: ${list.length} · ${s.accessMode==='invite-only'?'Для приглашённых участников':'Можно пройти без регистрации'}</p>${list.length?`<div class="card-grid">${list.map(q=>quizCard(s,q)).join('')}</div>`:(s.accessMode==='browse-only'?empty('Такого теста пока нет','Попробуй другое слово или выбери другой тест.','#/quizzes','Все тесты'):empty('Такого теста пока нет','Попробуй другое слово или создай свой.','#/create','Создать тест'))}`;}
