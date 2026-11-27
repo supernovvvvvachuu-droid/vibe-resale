@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" fill="none">
+  <defs>
+    <linearGradient id="wire" x1="45" y1="76" x2="373" y2="349" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8DBFF" stop-opacity=".8"/>
+      <stop offset=".36" stop-color="#B6E9FF" stop-opacity=".45"/>
+      <stop offset=".69" stop-color="#BDAAF9" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#E3F6FF" stop-opacity=".25"/>
+    </linearGradient>
+    <linearGradient id="point" x1="323" y1="126" x2="331" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset=".49" stop-color="#BDDFFF"/>
+      <stop offset="1" stop-color="#8B83BC"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#wire)">
+    <circle cx="210" cy="210" r="159" stroke-width=".7" stroke-dasharray="2 9"/>
+    <ellipse cx="210" cy="210" rx="183" ry="64" transform="rotate(-28 210 210)" stroke-width="1.1"/>
+    <ellipse cx="210" cy="210" rx="183" ry="64" transform="rotate(28 210 210)" stroke-width=".75" opacity=".72"/>
+    <ellipse cx="210" cy="210" rx="68" ry="165" transform="rotate(18 210 210)" stroke-width=".7" opacity=".55"/>
+    <circle cx="210" cy="210" r="99" stroke-width=".65" opacity=".48"/>
+  </g>
+  <circle cx="327" cy="133" r="6.5" fill="url(#point)"/>
+  <circle cx="88" cy="288" r="2.2" fill="#D5ECFF" fill-opacity=".8"/>
+  <path d="M356 249V261M350 255H362" stroke="#D8DEFF" stroke-width="1" stroke-linecap="round" opacity=".8"/>
+</svg>

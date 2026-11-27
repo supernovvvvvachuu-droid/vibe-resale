@@ -1,0 +1,119 @@
+[
+  {
+    "file": "hero.jpg",
+    "provider": "Unsplash",
+    "author": "Markus Stephen Griffiths",
+    "source": "https://unsplash.com/photos/woman-wearing-black-leather-jacket-RK9osHy0L1M",
+    "downloadUrl": "https://images.unsplash.com/photo-1560800323-4f8e7078ff07?auto=format&fit=crop&w=1600&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "goth.jpg",
+    "provider": "Unsplash",
+    "author": "Camila Quintero Franco",
+    "source": "https://unsplash.com/photos/woman-in-black-leather-jacket-XyqNkO_TlyY",
+    "downloadUrl": "https://images.unsplash.com/photo-1601663363857-2da8128c1917?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "jacket.jpg",
+    "provider": "Unsplash",
+    "author": "Good Faces",
+    "source": "https://unsplash.com/photos/woman-in-black-leather-jacket-lVhZ0aNzCWg",
+    "downloadUrl": "https://images.unsplash.com/photo-1613498382159-0972b7b4c9f1?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "y2k.jpg",
+    "provider": "Unsplash",
+    "author": "Good Faces",
+    "source": "https://unsplash.com/photos/woman-in-black-leather-jacket-lVhZ0aNzCWg",
+    "downloadUrl": "https://images.unsplash.com/photo-1613498382159-0972b7b4c9f1?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "coquette.jpg",
+    "provider": "Unsplash",
+    "author": null,
+    "source": "https://images.unsplash.com/photo-1496747611176-843222e1e57c",
+    "downloadUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "lace.jpg",
+    "provider": "Unsplash",
+    "author": null,
+    "source": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d",
+    "downloadUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "plaid.jpg",
+    "provider": "Unsplash",
+    "author": "Liana S",
+    "source": "https://unsplash.com/photos/person-in-plaid-skirt-and-boots-standing-on-fallen-leaves-Cw91U5BONUQ",
+    "downloadUrl": "https://images.unsplash.com/photo-1761639929350-a6a6506ae9f0?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "grunge.jpg",
+    "provider": "Unsplash",
+    "author": "Liana S",
+    "source": "https://unsplash.com/photos/person-in-plaid-skirt-and-boots-standing-on-fallen-leaves-Cw91U5BONUQ",
+    "downloadUrl": "https://images.unsplash.com/photo-1761639929350-a6a6506ae9f0?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "boots.jpg",
+    "provider": "Unsplash",
+    "author": "Raymond Petrik",
+    "source": "https://unsplash.com/photos/black-leather-boots-on-a-wooden-floor-pGpsf26GvXQ",
+    "downloadUrl": "https://images.unsplash.com/photo-1764590544650-ca51cd3eb207?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "academia.jpg",
+    "provider": "Unsplash",
+    "author": "Lucia Macedo",
+    "source": "https://unsplash.com/photos/a-woman-in-a-white-shirt-and-brown-cardigan-gOoAHYKSba4",
+    "downloadUrl": "https://images.unsplash.com/photo-1634389589159-5d48e1b1f83e?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "bag.jpg",
+    "provider": "Unsplash",
+    "author": "Marija Zaric",
+    "source": "https://unsplash.com/photos/a-denim-bag-sitting-on-top-of-a-wooden-bench-nlk8QR5geVc",
+    "downloadUrl": "https://images.unsplash.com/photo-1731834880898-00fccc78e5ba?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "necklace.jpg",
+    "provider": "Unsplash",
+    "author": "Harper Sunday",
+    "source": "https://unsplash.com/photos/silver-necklace-on-white-textile-Vya9Ji2Eg6A",
+    "downloadUrl": "https://images.unsplash.com/photo-1631050165155-421c47e306f7?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  },
+  {
+    "file": "vintage.jpg",
+    "provider": "Unsplash",
+    "author": null,
+    "source": "https://images.unsplash.com/photo-1445205170230-053b83016050",
+    "downloadUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=900&q=85",
+    "license": "https://unsplash.com/license",
+    "note": "Редакционная иллюстрация. Не фотография реально продаваемой вещи."
+  }
+]
